@@ -21,7 +21,7 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>65</AccuracyTouch>
+      <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
