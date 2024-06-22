@@ -21,10 +21,10 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyTouch>65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
@@ -51,9 +51,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_APRifle</defaultProjectile>
         <warmupTime>1</warmupTime>
-		<burstShotCount>7</burstShotCount>
+		<burstShotCount>4</burstShotCount>
 		<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <range>25</range>
+        <range>33</range>
         <soundCast>Shot_AdvancedRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -96,7 +96,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
 	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>0.5</stoppingPower>
       <speed>80</speed>
@@ -121,10 +121,10 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>24</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
@@ -150,7 +150,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_APSniperRifle</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>2</warmupTime>
         <range>50</range>
         <soundCast>Shot_AdvancedSniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -194,8 +194,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>45</damageAmountBase>
-	  <armorPenetrationBase>2</armorPenetrationBase>
+      <damageAmountBase>40</damageAmountBase>
+	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>0.9</stoppingPower>
       <speed>150</speed>
     </projectile>
@@ -219,10 +219,10 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>20</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -248,9 +248,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_APAutoShotgun</defaultProjectile>
         <warmupTime>1.5</warmupTime>
-		<burstShotCount>5</burstShotCount>
+		<burstShotCount>3</burstShotCount>
 		<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <range>25</range>
+        <range>15</range>
         <soundCast>Shot_AdvancedAutoShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -294,8 +294,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-	  <armorPenetrationBase>1.7</armorPenetrationBase>
+      <damageAmountBase>20</damageAmountBase>
+	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>2.0</stoppingPower>
       <speed>150</speed>
     </projectile>
@@ -317,10 +317,11 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>9</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.60</AccuracyMedium>
-      <AccuracyLong>0.60</AccuracyLong>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -345,8 +346,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_APMagnumPistol</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
-        <range>25</range>
+        <warmupTime>1</warmupTime>
+        <range>27</range>
         <soundCast>Shot_AdvancedAutoPistol</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>7</muzzleFlashScale>
@@ -389,7 +390,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>45</damageAmountBase>
+      <damageAmountBase>30</damageAmountBase>
 	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
@@ -414,11 +415,11 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>45</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -491,9 +492,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>250</damageAmountBase>
+      <damageAmountBase>50</damageAmountBase>
 	  <armorPenetrationBase>2.5</armorPenetrationBase>
-      <stoppingPower>0.9</stoppingPower>
+      <stoppingPower>2</stoppingPower>
       <speed>150</speed>
     </projectile>
   </ThingDef>
@@ -517,10 +518,10 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
@@ -555,7 +556,7 @@
         <warmupTime>1.0</warmupTime>
         <range>30</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>5</burstShotCount>
         <soundCast>Shot_EnergizedRifle1</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -595,8 +596,8 @@
     </graphicData>
     <projectile>
       <damageDef>NovaShot</damageDef>
-	  <armorPenetrationBase>2</armorPenetrationBase>
-	  <damageAmountBase>25</damageAmountBase>
+	  <armorPenetrationBase>0.50</armorPenetrationBase>
+	  <damageAmountBase>9</damageAmountBase>
       <speed>100</speed>
     </projectile>
   </ThingDef> 
@@ -618,11 +619,11 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>17</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.90</AccuracyShort>
-      <AccuracyMedium>1.50</AccuracyMedium>
-      <AccuracyLong>2.00</AccuracyLong>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -695,8 +696,8 @@
     </graphicData>
     <projectile>
       <damageDef>NovaShot</damageDef>
-	  <armorPenetrationBase>5</armorPenetrationBase>
-	  <damageAmountBase>50</damageAmountBase>
+	  <armorPenetrationBase>0.50</armorPenetrationBase>
+	  <damageAmountBase>35</damageAmountBase>
       <speed>120</speed>
     </projectile>
   </ThingDef>
@@ -717,9 +718,10 @@
       <WorkToMake>45000</WorkToMake>
       <Mass>12</Mass>
       <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+	  <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -750,10 +752,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_NovaKriss</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
-        <range>20</range>
+        <warmupTime>0.7</warmupTime>
+        <range>23</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
+        <burstShotCount>5</burstShotCount>
         <soundCast>Shot_EnergizedKriss</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>7</muzzleFlashScale>
@@ -793,8 +795,8 @@
     </graphicData>
     <projectile>
       <damageDef>NovaShot</damageDef>
-	  <armorPenetrationBase>2</armorPenetrationBase>
-	  <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.50</armorPenetrationBase>
+	  <damageAmountBase>8</damageAmountBase>
       <speed>100</speed>
     </projectile>
   </ThingDef> 
@@ -816,8 +818,9 @@
       <Mass>9</Mass>
       <AccuracyTouch>1.00</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.70</AccuracyMedium>
-      <AccuracyLong>0.70</AccuracyLong>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+	  <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -848,6 +851,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_NovaPistol</defaultProjectile>
+		<warmupTime>0.3</warmupTime>
         <range>25</range>
         <soundCast>Shot_EnergizedKriss</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -888,8 +892,8 @@
     </graphicData>
     <projectile>
       <damageDef>NovaShot</damageDef>
-	  <armorPenetrationBase>2</armorPenetrationBase>
-	  <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.50</armorPenetrationBase>
+	  <damageAmountBase>8</damageAmountBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
