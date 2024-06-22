@@ -37,8 +37,8 @@
       <Mass>15</Mass>
       <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.70</AccuracyMedium>
-      <AccuracyLong>0.70</AccuracyLong>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
     </statBases>
     <costList>
       <SuperSteel>85</SuperSteel>
@@ -49,8 +49,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BurstSMG</defaultProjectile>
-        <range>22.9</range>
-        <burstShotCount>10</burstShotCount>
+        <range>25</range>
+        <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <soundCast>Shot_PDWSMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -94,7 +94,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>12</damageAmountBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -133,10 +134,10 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>24000</WorkToMake>
       <Mass>5</Mass>
-      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.70</AccuracyMedium>
-      <AccuracyLong>0.60</AccuracyLong>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -149,8 +150,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_HomelanderRevolver</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>20</range>
-        <burstShotCount>4</burstShotCount>
+        <range>26</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <soundCast>Shot_PDWRevolver</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -194,8 +194,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-	  <armorPenetrationBase>0.50</armorPenetrationBase>
+      <damageAmountBase>17</damageAmountBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
 	  <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
     </projectile>
@@ -236,15 +236,15 @@
 	  <MaxHitPoints>200</MaxHitPoints>
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>24000</WorkToMake>
-      <Mass>20</Mass>
+      <Mass>15</Mass>
       <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
 	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <SuperSteel>150</SuperSteel>
+      <SuperSteel>100</SuperSteel>
       <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
     </costList>
     <verbs>
@@ -252,10 +252,8 @@
         <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_PumpShotgun</defaultProjectile>
-		<warmupTime>1.5</warmupTime>
-        <range>20</range>
-        <burstShotCount>5</burstShotCount>
-        <ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+		<warmupTime>1</warmupTime>
+        <range>18</range>
         <soundCast>Shot_PDWShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -299,9 +297,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>28</damageAmountBase>
 	  <stoppingPower>4.0</stoppingPower>
-	  <armorPenetrationBase>0.65</armorPenetrationBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
       <speed>150</speed>
 	  <extraDamages>
 		 <li>
@@ -316,7 +314,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_HomelanderARPistol</defName>
     <label>homelander AR pistol</label>
-    <description>An ultra compact DDM4 PDW pistol designed for colony defense. This AR pistol is the superior alternative to traditional pistols due to its increadible range and fire rate, and it possess great armor penetration that can penetrate even the finest of flak vests.</description>
+    <description>An ultra compact DDM4 PDW pistol designed for colony defense. This AR pistol is the superior alternative to traditional pistols due to its incredible range and fire rate, and it possess great armor penetration that can penetrate even the finest of flak vests.</description>
     <graphicData>
       <texPath>Things/Weapons/Kral's_Arms/PDW/PDW-Pistol_300blk_extended</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -346,15 +344,15 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>24000</WorkToMake>
       <Mass>20</Mass>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <SuperSteel>95</SuperSteel>
-      <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
+      <AdvancedGunPartsKit>4</AdvancedGunPartsKit>
     </costList>
     <verbs>
       <li>
@@ -362,7 +360,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_HomelanderARPistol</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>45</range>
+        <range>35</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>Shot_PDWRevolver</soundCast>
@@ -407,9 +405,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>17</damageAmountBase>
+      <damageAmountBase>12.5</damageAmountBase>
 	  <stoppingPower>1.5</stoppingPower>
-	  <armorPenetrationBase>0.85</armorPenetrationBase>
+	  <armorPenetrationBase>0.35</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -432,10 +430,10 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>25</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
@@ -461,9 +459,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_HCAR</defaultProjectile>
         <warmupTime>1</warmupTime>
-		<burstShotCount>15</burstShotCount>
+		<burstShotCount>5</burstShotCount>
 		<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <range>50</range>
+        <range>31</range>
         <soundCast>Shot_HCAR</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>15</muzzleFlashScale>
@@ -511,8 +509,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-	  <armorPenetrationBase>0.95</armorPenetrationBase>
+      <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
       <stoppingPower>2.0</stoppingPower>
       <speed>120</speed>
     </projectile>
