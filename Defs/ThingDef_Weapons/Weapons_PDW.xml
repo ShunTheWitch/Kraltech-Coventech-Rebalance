@@ -95,7 +95,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>0.25</armorPenetrationBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -195,7 +195,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>17</damageAmountBase>
-	  <armorPenetrationBase>0.25</armorPenetrationBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
 	  <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
     </projectile>
@@ -299,7 +299,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>28</damageAmountBase>
 	  <stoppingPower>4.0</stoppingPower>
-	  <armorPenetrationBase>0.25</armorPenetrationBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
       <speed>150</speed>
 	  <extraDamages>
 		 <li>
@@ -352,7 +352,7 @@
     </statBases>
     <costList>
       <SuperSteel>95</SuperSteel>
-      <AdvancedGunPartsKit>4</AdvancedGunPartsKit>
+      <AdvancedGunPartsKit>3</AdvancedGunPartsKit>
     </costList>
     <verbs>
       <li>
@@ -407,7 +407,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12.5</damageAmountBase>
 	  <stoppingPower>1.5</stoppingPower>
-	  <armorPenetrationBase>0.35</armorPenetrationBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -450,7 +450,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>120</SuperSteel>
+      <SuperSteel>100</SuperSteel>
       <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
     </costList>
     <verbs>
@@ -510,7 +510,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
-	  <armorPenetrationBase>0.25</armorPenetrationBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
       <stoppingPower>2.0</stoppingPower>
       <speed>120</speed>
     </projectile>
