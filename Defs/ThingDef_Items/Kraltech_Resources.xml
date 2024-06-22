@@ -16,15 +16,15 @@
 		<useHitPoints>false</useHitPoints>
 		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<statBases>
-			<MarketValue>15</MarketValue>
+			<MarketValue>12.5</MarketValue>
 			<Mass>1</Mass>
-			<StuffPower_Armor_Sharp>1.65</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1.45</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+			<StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.85</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>1.25</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+			<BluntDamageMultiplier>1.25</BluntDamageMultiplier>
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
@@ -40,11 +40,10 @@
 				<Beauty>2</Beauty>
 			</statOffsets>
 			<statFactors>
-				<MaxHitPoints>9.0</MaxHitPoints>
+				<MaxHitPoints>3.5</MaxHitPoints>
 				<Flammability>0</Flammability>
 				<Beauty>2</Beauty>
-				<DoorOpenSpeed>5</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -64,15 +63,15 @@
 		<stackLimit>500</stackLimit>
 		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<statBases>
-			<MarketValue>25</MarketValue>
+			<MarketValue>20</MarketValue>
 			<Mass>1</Mass>
-			<StuffPower_Armor_Sharp>2.50</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>2.20</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>4.00</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>50</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>5.50</SharpDamageMultiplier>
-			<BluntDamageMultiplier>4.20</BluntDamageMultiplier>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.25</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>2.50</SharpDamageMultiplier>
+			<BluntDamageMultiplier>2.25</BluntDamageMultiplier>
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
@@ -88,11 +87,11 @@
 				<Beauty>2</Beauty>
 			</statOffsets>
 			<statFactors>
-				<MaxHitPoints>20</MaxHitPoints>
+				<MaxHitPoints>8</MaxHitPoints>
 				<Flammability>0</Flammability>
 				<Beauty>2</Beauty>
-				<DoorOpenSpeed>5</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
+				<DoorOpenSpeed>0.75</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.75</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -100,7 +99,7 @@
 	<ThingDef ParentName="ResourceBase">
       <defName>SensitiveMechComponents</defName>
       <label>sensitive mech components</label>
-      <description>An increadibly sensitive mech components that can only be found from mech variant bosses. Theses components are responsible in keeping mech variant bosses function in full capacity without breaking down, and can be used to craft high-tier equipments an useful structures. The only downside is that it deteriorates faster if left outdoors and unattended.</description>
+      <description>An incredibly sensitive mech components that can only be found from mech variant bosses. Theses components are responsible in keeping mech variant bosses function in full capacity without breaking down, and can be used to craft high-tier equipments an useful structures. The only downside is that it deteriorates faster if left outdoors and unattended.</description>
       <graphicData>
         <texPath>Things/Resources/SensitiveMechComponent/MechComponentSensitive</texPath>
         <graphicClass>Graphic_Single</graphicClass>
@@ -223,7 +222,7 @@
         </recipeUsers>
       </recipeMaker>
       <costList>
-          <Plasteel>45</Plasteel>
+          <Plasteel>35</Plasteel>
 	      <ComponentSpacer>3</ComponentSpacer>
       </costList>
       <burnableByRecipe>false</burnableByRecipe>
@@ -243,15 +242,15 @@
       </graphicData>
       <statBases>
         <MaxHitPoints>500</MaxHitPoints>
-        <MarketValue>7</MarketValue>
+        <MarketValue>12.5</MarketValue>
         <Mass>0.025</Mass>
         <Flammability>0</Flammability>
         <DeteriorationRate>0</DeteriorationRate>
-        <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
-	    <StuffPower_Armor_Blunt>1.55</StuffPower_Armor_Blunt>
-	    <StuffPower_Armor_Heat>3.00</StuffPower_Armor_Heat>
-	    <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
-	    <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+        <StuffPower_Armor_Sharp>1.10</StuffPower_Armor_Sharp>
+	    <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+	    <StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+	    <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+	    <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
       </statBases>
 	  <stackLimit>500</stackLimit>
       <burnableByRecipe>true</burnableByRecipe>
@@ -261,12 +260,12 @@
         <categories>
           <li>Fabric</li>
         </categories>
-        <commonality>0.15</commonality>
+        <commonality>0.02</commonality>
         <color>(177,178,139)</color>
         <statFactors>
           <Flammability>0</Flammability>
-          <MaxHitPoints>4.5</MaxHitPoints>
-          <Beauty>2.3</Beauty>
+          <MaxHitPoints>2.5</MaxHitPoints>
+          <Beauty>2</Beauty>
         </statFactors>
       </stuffProps>
       <thingCategories>
@@ -335,8 +334,8 @@
           <capacities>
             <li>Stab</li>
           </capacities>
-          <power>25</power>
-          <cooldownTime>2.6</cooldownTime>
+          <power>22</power>
+          <cooldownTime>3.5</cooldownTime>
 		  <armorPenetration>1.5</armorPenetration>
         </li>
         <li>
@@ -344,8 +343,8 @@
           <capacities>
            <li>Cut</li>
           </capacities>
-          <power>45</power>
-          <cooldownTime>2</cooldownTime>
+          <power>35</power>
+          <cooldownTime>3.5</cooldownTime>
 		  <armorPenetration>1.5</armorPenetration>
         </li>
       </tools>
