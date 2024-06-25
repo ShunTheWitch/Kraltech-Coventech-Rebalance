@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_MechSlayerLaserRifle</defName>
     <label>mechslayer laser rifle</label>
-    <description>A semi automatic laser assault rifle with one of the highest armor penetration ever concieved. It's laser bolts are increadibly deadly that can easily melt mechanoid variant armor like butter, and inflict massive ammounts of damage at a short period of time.</description>
+    <description>A semi automatic laser assault rifle with one of the highest armor penetration ever concieved. It's laser bolts are increadibly deadly that can easily melt mechanoid variant armor like butter, and inflict massive amounts of damage at a short period of time.</description>
     <graphicData>
       <texPath>Things/Weapons/Kral's_Arms/MechSlayer/MechSlayerLaserRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -19,11 +19,11 @@
 	  <MarketValue>7500</MarketValue>
       <WorkToMake>85000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -32,7 +32,7 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       <researchPrerequisite>MechSlayerWeapons</researchPrerequisite>
       <skillRequirements>
-        <Crafting>17</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>KraltechFabBench</li>
@@ -49,9 +49,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_LaserRifleShot</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-		<burstShotCount>7</burstShotCount>
+		<burstShotCount>3</burstShotCount>
 		<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <range>25</range>
+        <range>23</range>
         <soundCast>Shot_LaserShotLight</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -95,8 +95,9 @@
     </graphicData>
     <projectile>
       <damageDef>LaserAssaultDam</damageDef>
-	  <armorPenetrationBase>5</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
+	  <damageAmountBase>21</damageAmountBase>
+	  <armorPenetrationBase>2.0</armorPenetrationBase>
+      <stoppingPower>2</stoppingPower>
       <speed>150</speed>
     </projectile>
   </ThingDef>
@@ -225,10 +226,10 @@
 	  <MarketValue>11500</MarketValue>
       <WorkToMake>85000</WorkToMake>
       <Mass>95</Mass>
-      <AccuracyTouch>2.0</AccuracyTouch>
-      <AccuracyShort>2.0</AccuracyShort>
-      <AccuracyMedium>2.0</AccuracyMedium>
-      <AccuracyLong>2.0</AccuracyLong>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
@@ -238,7 +239,7 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       <researchPrerequisite>MechSlayerWeapons</researchPrerequisite>
       <skillRequirements>
-        <Crafting>17</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>KraltechFabBench</li>
@@ -254,10 +255,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_LaserAvengerShot</defaultProjectile>
-        <warmupTime>1.5</warmupTime>
-		<burstShotCount>25</burstShotCount>
-		<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <range>25.9</range>
+        <warmupTime>2.5</warmupTime>
+		<burstShotCount>15</burstShotCount>
+		<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <range>20</range>
         <soundCast>Shot_LaserShotHeavy</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -304,8 +305,9 @@
     </graphicData>
     <projectile>
       <damageDef>LaserHeavyDam</damageDef>
-	  <armorPenetrationBase>5</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
+	  <damageAmountBase>18</damageAmountBase>
+	  <armorPenetrationBase>2.0</armorPenetrationBase>
+      <stoppingPower>2</stoppingPower>
       <speed>150</speed>
     </projectile>
   </ThingDef>
@@ -329,10 +331,10 @@
       <WorkToMake>85000</WorkToMake>
       <Mass>25</Mass>
       <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -341,25 +343,25 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       <researchPrerequisite>MechSlayerWeapons</researchPrerequisite>
       <skillRequirements>
-        <Crafting>17</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>KraltechFabBench</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>500</SuperSteel>
-      <Uranium>350</Uranium>
-	  <AdvancedGunPartsKit>30</AdvancedGunPartsKit>
+      <SuperSteel>150</SuperSteel>
+      <Uranium>25</Uranium>
+	  <AdvancedGunPartsKit>15</AdvancedGunPartsKit>
     </costList>
     <verbs>
       <li Class="Kraltech_Industries.Verb_Properties_AccurateShot">
         <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_LaserShotgun</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
+        <warmupTime>1</warmupTime>
 		<burstShotCount>10</burstShotCount>
-        <range>25</range>
+        <range>19</range>
 		<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <soundCast>Shot_LaserShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -407,8 +409,9 @@
     </graphicData>
     <projectile>
       <damageDef>LaserHeavyDam</damageDef>
-	  <armorPenetrationBase>9.10</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
+	  <damageAmountBase>18</damageAmountBase>
+	  <armorPenetrationBase>2.0</armorPenetrationBase>
+      <stoppingPower>4</stoppingPower>
       <speed>150</speed>
     </projectile>
   </ThingDef>

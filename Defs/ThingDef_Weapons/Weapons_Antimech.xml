@@ -304,7 +304,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_AntiMechMagnumPistol</defName>
     <label>anti-mech magnum pistol</label>
-    <description>A moddified magnum with an elongated barrel. Unlike other sidearms, the anti-mech magnum pistol has the strongest raw damage for a sidearm, capable of blowing-out mechanical limbs without breaking a sweat. The only downside is the difficulty of using this magnum due to recoil, unless the gunman is a master gunman, wielding this magnum will prove to be a difficult undertaking.</description>
+    <description>A modified magnum with an elongated barrel. Unlike other sidearms, the anti-mech magnum pistol has the strongest raw damage for a sidearm, capable of blowing-out mechanical limbs without breaking a sweat. The only downside is the difficulty of using this magnum due to recoil, unless the gunman is a master gunman, wielding this magnum will prove to be a difficult undertaking.</description>
     <graphicData>
       <texPath>Things/Weapons/Kral's_Arms/MechHunter/AdvancedPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -318,10 +318,10 @@
       <WorkToMake>45000</WorkToMake>
       <Mass>9</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+	  <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
 	 <recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -390,7 +390,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageAmountBase>22</damageAmountBase>
 	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
@@ -492,7 +492,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>50</damageAmountBase>
+      <damageAmountBase>70</damageAmountBase>
 	  <armorPenetrationBase>2.5</armorPenetrationBase>
       <stoppingPower>2</stoppingPower>
       <speed>150</speed>

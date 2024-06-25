@@ -39,6 +39,7 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.35</AccuracyMedium>
       <AccuracyLong>0.20</AccuracyLong>
+	  <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <SuperSteel>85</SuperSteel>
@@ -49,8 +50,9 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BurstSMG</defaultProjectile>
+		<warmupTime>0.9</warmupTime>
         <range>25</range>
-        <burstShotCount>6</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <soundCast>Shot_PDWSMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -94,8 +96,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>0.20</armorPenetrationBase>
+      <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.05</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -151,7 +153,6 @@
         <defaultProjectile>Bullet_HomelanderRevolver</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>26</range>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <soundCast>Shot_PDWRevolver</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -195,7 +196,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>17</damageAmountBase>
-	  <armorPenetrationBase>0.20</armorPenetrationBase>
+	  <armorPenetrationBase>0.05</armorPenetrationBase>
 	  <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
     </projectile>
@@ -297,9 +298,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>28</damageAmountBase>
+      <damageAmountBase>24</damageAmountBase>
 	  <stoppingPower>4.0</stoppingPower>
-	  <armorPenetrationBase>0.20</armorPenetrationBase>
+	  <armorPenetrationBase>0.05</armorPenetrationBase>
       <speed>150</speed>
 	  <extraDamages>
 		 <li>
@@ -407,7 +408,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12.5</damageAmountBase>
 	  <stoppingPower>1.5</stoppingPower>
-	  <armorPenetrationBase>0.20</armorPenetrationBase>
+	  <armorPenetrationBase>0.05</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -510,7 +511,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
-	  <armorPenetrationBase>0.20</armorPenetrationBase>
+	  <armorPenetrationBase>0.05</armorPenetrationBase>
       <stoppingPower>2.0</stoppingPower>
       <speed>120</speed>
     </projectile>
