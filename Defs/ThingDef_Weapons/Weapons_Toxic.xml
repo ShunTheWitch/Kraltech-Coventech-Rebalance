@@ -16,11 +16,11 @@
 	  <MarketValue>3500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>25</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.60</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.26</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -91,15 +91,8 @@
     </graphicData>
     <projectile>
       <damageDef>ToxicShot</damageDef>
-	  <damageAmountBase>5</damageAmountBase>
+	  <damageAmountBase>1</damageAmountBase>
       <speed>100</speed>
-	  <extraDamages>
-		<li>
-			<def>Flame</def>
-			<amount>15</amount>
-			<chance>0.5</chance>
-		</li>
-	  </extraDamages>
     </projectile>
   </ThingDef>
   
