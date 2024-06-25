@@ -36,11 +36,11 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>24000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>2.00</AccuracyTouch>
-      <AccuracyShort>2.00</AccuracyShort>
-      <AccuracyMedium>2.00</AccuracyMedium>
-      <AccuracyLong>2.00</AccuracyLong>
-	  <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -51,10 +51,10 @@
         <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_EMPRifle</defaultProjectile>
-		<warmupTime>0.2</warmupTime>
-        <range>55.9</range>
-        <burstShotCount>7</burstShotCount>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+		<warmupTime>1</warmupTime>
+        <range>40</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>Shot_HCAR</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -100,7 +100,7 @@
 	  <extraDamages>
 		<li>
 			<def>EMP</def>
-			<amount>250</amount>
+			<amount>80</amount>
 			<chance>1.0</chance>
 		</li>
 	  </extraDamages>
@@ -159,7 +159,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Rocket_EMP</defaultProjectile>
         <warmupTime>1</warmupTime>
-        <range>55</range>
+        <range>40</range>
         <burstShotCount>1</burstShotCount>
 		<minRange>4.9</minRange>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -180,7 +180,7 @@
     </tools>
 	<comps>
 	  <li Class="Kraltech_Industries.CompProperties_ReloadableWeapon">
-        <maxCharges>20</maxCharges>
+        <maxCharges>1</maxCharges>
         <destroyOnEmpty>true</destroyOnEmpty>
         <chargeNoun>charge</chargeNoun>
         <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
@@ -201,7 +201,7 @@
     </graphicData>
     <projectile>
       <damageDef>EMP</damageDef>
-	  <damageAmountBase>500</damageAmountBase>
+	  <damageAmountBase>250</damageAmountBase>
       <explosionRadius>10.9</explosionRadius>
 	  <armorPenetrationBase>3.5</armorPenetrationBase>
       <stoppingPower>1.2</stoppingPower>
