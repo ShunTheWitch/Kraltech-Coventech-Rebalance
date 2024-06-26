@@ -119,15 +119,15 @@
 		<useHitPoints>false</useHitPoints>
 		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<statBases>
-			<MarketValue>99</MarketValue>
+			<MarketValue>25</MarketValue>
 			<Mass>1</Mass>
-			<StuffPower_Armor_Sharp>7.50</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>7.50</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>7.50</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>7.50</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>7.50</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>7.50</SharpDamageMultiplier>
-			<BluntDamageMultiplier>7.5</BluntDamageMultiplier>
+			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>2.25</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>2.25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>2.25</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>2.75</SharpDamageMultiplier>
+			<BluntDamageMultiplier>2.50</BluntDamageMultiplier>
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
@@ -143,11 +143,10 @@
 				<Beauty>2</Beauty>
 			</statOffsets>
 			<statFactors>
-				<MaxHitPoints>99.0</MaxHitPoints>
+				<MaxHitPoints>12</MaxHitPoints>
 				<Flammability>0</Flammability>
 				<Beauty>2</Beauty>
-				<DoorOpenSpeed>5</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>7.50</MeleeWeapon_CooldownMultiplier>
+				<DoorOpenSpeed>0.50</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
