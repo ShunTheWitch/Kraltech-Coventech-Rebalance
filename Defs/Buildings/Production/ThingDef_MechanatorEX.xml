@@ -24,8 +24,8 @@
     </statBases>
     <size>(4,3)</size>
     <costList>
-      <Steel>750</Steel>
-	  <Plasteel>550</Plasteel>
+      <Steel>650</Steel>
+	  <Plasteel>500</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <researchPrerequisites>
@@ -120,7 +120,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>900</basePowerConsumption>
+        <basePowerConsumption>1000</basePowerConsumption>
       </li>
     </comps>
   </ThingDef>
