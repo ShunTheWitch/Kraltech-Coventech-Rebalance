@@ -37,7 +37,6 @@
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-	  <SignalChip>1</SignalChip>
     </costList>
     <killedLeavings>
       <ChunkSlagSteel>5</ChunkSlagSteel>
@@ -106,7 +105,6 @@
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-	  <PowerfocusChip>1</PowerfocusChip>
     </costList>
     <killedLeavings>
       <ChunkSlagSteel>5</ChunkSlagSteel>
@@ -175,7 +173,6 @@
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-	  <NanostructuringChip>1</NanostructuringChip>
     </costList>
     <killedLeavings>
       <ChunkSlagSteel>5</ChunkSlagSteel>
@@ -244,9 +241,6 @@
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-	  <AlphaChip>1</AlphaChip>
-	  <BetaChip>1</BetaChip>
-	  <GammaChip>1</GammaChip>
     </costList>
     <killedLeavings>
       <ChunkSlagSteel>5</ChunkSlagSteel>
@@ -315,7 +309,6 @@
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-	  <GammaChip>1</GammaChip>
 	  <SummonerAntena>1</SummonerAntena>
     </costList>
     <killedLeavings>
