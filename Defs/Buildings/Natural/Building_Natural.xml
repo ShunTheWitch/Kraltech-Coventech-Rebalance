@@ -13,7 +13,7 @@
       <colorTwo>(200,201,173)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>8000</MaxHitPoints>
+      <MaxHitPoints>9000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
