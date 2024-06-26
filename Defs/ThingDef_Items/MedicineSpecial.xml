@@ -71,8 +71,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Neutroamine>7</Neutroamine>
-	  <Luciferium>15</Luciferium>
+      <Neutroamine>10</Neutroamine>
+	  <Luciferium>20</Luciferium>
     </costList>
 	<socialPropernessMatters>true</socialPropernessMatters>
 	<comps>
@@ -344,7 +344,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Neutroamine>3</Neutroamine>
+      <Neutroamine>2</Neutroamine>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
