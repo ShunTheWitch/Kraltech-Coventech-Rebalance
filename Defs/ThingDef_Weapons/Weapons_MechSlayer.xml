@@ -354,23 +354,6 @@
       <Uranium>25</Uranium>
 	  <AdvancedGunPartsKit>15</AdvancedGunPartsKit>
     </costList>
-    <verbs>
-      <li Class="Kraltech_Industries.Verb_Properties_AccurateShot">
-        <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_LaserShotgun</defaultProjectile>
-        <warmupTime>1.5</warmupTime>
-		<burstShotCount>10</burstShotCount>
-        <range>19</range>
-		<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <soundCast>Shot_LaserShotgun</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>10</muzzleFlashScale>
-		<targetParams>
-		  <canTargetPawns>true</canTargetPawns>
-        </targetParams>
-      </li>
-    </verbs>
 	<verbs>
  	<li Class="Shotgunz.Verb_Properties_Shotgunz">
         <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
