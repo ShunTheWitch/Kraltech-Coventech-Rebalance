@@ -10,7 +10,7 @@
       <BandwidthCost>20</BandwidthCost>
     </statBases>
     <race>
-      <baseHealthScale>10.5</baseHealthScale>
+      <baseHealthScale>6</baseHealthScale>
       <mechWeightClass>UltraHeavy</mechWeightClass>
     </race>
     <butcherProducts Inherit="False">
@@ -37,14 +37,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.02</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
       <MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
       <EMPResistance>0.99</EMPResistance>
-	  <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.85</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
@@ -67,7 +67,7 @@
           <soundCall>Pawn_Mech_Warqueen_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>20.2</baseHealthScale>
+      <baseHealthScale>6.2</baseHealthScale>
       <dutyBoss>Warqueen</dutyBoss>
     </race>
     <tools>
@@ -88,7 +88,7 @@
           <li>Cut</li>
           <li>Stab</li>
         </capacities>
-        <power>50</power>
+        <power>20</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
@@ -101,7 +101,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>20000</hitPoints>
+        <hitPoints>200</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -138,7 +138,7 @@
     <label>hydraulic empress</label>
     <labelPlural>hydraulic empresses</labelPlural>
     <race>Mech_HydraulicEmpress</race>
-    <combatPower>7000</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -195,14 +195,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.02</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
       <MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
       <EMPResistance>0.99</EMPResistance>
-	  <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.90</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
@@ -227,7 +227,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>30.2</baseHealthScale>
+      <baseHealthScale>6.3</baseHealthScale>
       <dutyBoss>Warqueen</dutyBoss>
     </race>
     <tools>
@@ -251,7 +251,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>40000</hitPoints>
+        <hitPoints>200</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -283,7 +283,7 @@
     <label>dragon warlord</label>
     <labelPlural>dragon warlords</labelPlural>
     <race>Mech_DragonWarlord</race>
-    <combatPower>9000</combatPower>
+    <combatPower>1000</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -341,14 +341,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.05</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
       <MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
       <EMPResistance>0.99</EMPResistance>
 	  <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.70</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
@@ -373,7 +373,7 @@
         </li>
       </lifeStageAges>
 	  <dutyBoss>MilitorQueen</dutyBoss>
-      <baseHealthScale>40.2</baseHealthScale>
+      <baseHealthScale>7.2</baseHealthScale>
     </race>
     <tools>
       <li>
@@ -414,7 +414,7 @@
     <label>steel wyvern</label>
     <labelPlural>steel wyverns</labelPlural>
     <race>Mech_Dragon</race>
-    <combatPower>5500</combatPower>
+    <combatPower>1100</combatPower>
     <maxPerGroup>3</maxPerGroup>
     <allowInMechClusters>true</allowInMechClusters>
     <lifeStages>
@@ -468,14 +468,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
       <MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
       <EMPResistance>0.99</EMPResistance>
 	  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
@@ -500,7 +500,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>10.2</baseHealthScale>
+      <baseHealthScale>5.2</baseHealthScale>
     </race>
     <tools>
       <li>
@@ -522,7 +522,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>10000</hitPoints>
+        <hitPoints>200</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>1800</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -601,14 +601,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
       <MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
-      <EMPResistance>0.99</EMPResistance>
+      <EMPResistance>0.49</EMPResistance>
 	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
@@ -624,7 +624,7 @@
           <soundCall>Pawn_Mech_Warqueen_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>12.2</baseHealthScale>
+      <baseHealthScale>7.2</baseHealthScale>
       <dutyBoss>MilitorQueen</dutyBoss>
     </race>
     <tools>
@@ -648,7 +648,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>20000</hitPoints>
+        <hitPoints>200</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -684,7 +684,7 @@
     <label>militor queen</label>
     <labelPlural>militor queens</labelPlural>
     <race>Mech_MilitorQueen</race>
-    <combatPower>7000</combatPower>
+    <combatPower>1000</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -729,10 +729,10 @@
 	    <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	    <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-		<EMPResistance>0.90</EMPResistance>
-		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.9</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<EMPResistance>0.10</EMPResistance>
+		<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
       </statBases>
       <race>
 	    <mechEnabledWorkTypes>
@@ -741,7 +741,7 @@
 		  <li>Warden</li>
 		  <li>Hunting</li>
         </mechEnabledWorkTypes>
-	    <baseHealthScale>3</baseHealthScale>
+	    <baseHealthScale>2</baseHealthScale>
         <lifeStageAges>
           <li>
             <def>MechanoidFullyFormed</def>
@@ -767,7 +767,7 @@
           <color>(0.0, 0.8, 0.0)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>700</hitPoints>
+          <hitPoints>600</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>900</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
@@ -887,7 +887,7 @@
         </li>
 		<li Class="CompProperties_Explosive">
           <wickTicks>0</wickTicks>
-          <explosiveRadius>10.9</explosiveRadius>
+          <explosiveRadius>3.9</explosiveRadius>
           <explodeOnKilled>true</explodeOnKilled>
           <explosiveDamageType>AntiOrganicBlast</explosiveDamageType>
           <propagationSpeed>0.5</propagationSpeed>
@@ -949,10 +949,10 @@
 	    <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	    <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-		<EMPResistance>0.90</EMPResistance>
-		<IncomingDamageFactor>0.2</IncomingDamageFactor>
+		<EMPResistance>0.10</EMPResistance>
+		<IncomingDamageFactor>1</IncomingDamageFactor>
 		<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
       </statBases>
       <race>
@@ -987,8 +987,8 @@
           <color>(0.0, 0.8, 0.0)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>700</hitPoints>
-          <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
+          <hitPoints>20</hitPoints>
+          <hitPointsRestoreInstantlyAfterCharge>false</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>900</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
           <minIdleAlpha>0.2</minIdleAlpha>
@@ -1058,11 +1058,11 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
-	  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <EMPResistance>0.10</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
+	  <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>3</BandwidthCost>
     </statBases>
@@ -1182,10 +1182,10 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <EMPResistance>0.10</EMPResistance>
+	  <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>3</BandwidthCost>
     </statBases>
@@ -1235,7 +1235,7 @@
     </comps>
     <race>
       <body>Mech_Grunt</body>
-      <baseHealthScale>3</baseHealthScale>
+      <baseHealthScale>2</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1319,11 +1319,11 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
+	  <EMPResistance>0.10</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
 	  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>3</BandwidthCost>
     </statBases>
@@ -1367,7 +1367,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>900</hitPoints>
+        <hitPoints>60</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -1379,7 +1379,7 @@
 	</comps>
     <race>
       <body>Mech_Paladin</body>
-      <baseHealthScale>5</baseHealthScale>
+      <baseHealthScale>3</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1462,10 +1462,10 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
+	  <EMPResistance>0.10</EMPResistance>
 	  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>3</BandwidthCost>
     </statBases>
@@ -1509,8 +1509,8 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>900</hitPoints>
-        <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
+        <hitPoints>100</hitPoints>
+        <hitPointsRestoreInstantlyAfterCharge>false</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
         <minIdleAlpha>0.2</minIdleAlpha>
@@ -1530,7 +1530,7 @@
 	</comps>
     <race>
       <body>Mech_Grunt</body>
-      <baseHealthScale>5</baseHealthScale>
+      <baseHealthScale>1</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1615,11 +1615,11 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
-	  <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.70</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <EMPResistance>0.10</EMPResistance>
+	  <IncomingDamageFactor>1.1</IncomingDamageFactor>
+	  <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>5</BandwidthCost>
     </statBases>
@@ -1658,7 +1658,7 @@
     </tools>
     <race>
       <body>Mech_Paladin</body>
-      <baseHealthScale>20</baseHealthScale>
+      <baseHealthScale>1</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1743,14 +1743,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <IncomingDamageFactor>0.5</IncomingDamageFactor>
+	  <EMPResistance>0.10</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
 	  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
 	  <MeleeDodgeChance>5.0</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-1.5</MeleeWeapon_CooldownMultiplier>
+	  <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
       <BandwidthCost>5</BandwidthCost>
     </statBases>
     <tools>
@@ -1788,7 +1788,7 @@
     </tools>
     <race>
       <body>Mech_Grunt</body>
-      <baseHealthScale>7</baseHealthScale>
+      <baseHealthScale>1.5</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1868,13 +1868,12 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
+	  <EMPResistance>0.10</EMPResistance>
 	  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
-      <PsychicSensitivity>0</PsychicSensitivity>
-	  <MeleeDodgeChance>5.0</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-1.5</MeleeWeapon_CooldownMultiplier>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <PsychicSensitivity>2</PsychicSensitivity>
+	  <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
       <BandwidthCost>5</BandwidthCost>
     </statBases>
     <tools>
@@ -1917,7 +1916,7 @@
 		<color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>5000</hitPoints>
+        <hitPoints>200</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
@@ -1930,7 +1929,7 @@
 	
     <race>
       <body>Mech_Psionic</body>
-      <baseHealthScale>2</baseHealthScale>
+      <baseHealthScale>0.5</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -2017,13 +2016,13 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.99</EMPResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
-	  <ArmorRating_Blunt>0.95</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.80</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <EMPResistance>0.1</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
+	  <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
-	  <StaggerDurationFactor>0</StaggerDurationFactor>
+	  <StaggerDurationFactor>0.4</StaggerDurationFactor>
       <BandwidthCost>8</BandwidthCost>
     </statBases>
     <tools>
@@ -2061,29 +2060,24 @@
     </tools>
 	<comps>
 	  <li Class="CompProperties_ProjectileInterceptor">
-        <radius>3</radius>
+        <radius>6</radius>
 		<color>(0.0, 0.8, 0.0)</color>
         <interceptGroundProjectiles>true</interceptGroundProjectiles>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>10000</hitPoints>
+        <hitPoints>500</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
-        <chargeDurationTicks>900</chargeDurationTicks>
+        <chargeDurationTicks>1900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
         <minIdleAlpha>0.2</minIdleAlpha>
         <drawWithNoSelection>True</drawWithNoSelection>
-        <disarmedByEmpForTicks>1500</disarmedByEmpForTicks>
+        <disarmedByEmpForTicks>5500</disarmedByEmpForTicks>
         <gizmoTipKey>ProjectileInterceptorTip</gizmoTipKey>
-      </li>
-	  <li Class="CompProperties_TurretGun">
-        <turretDef>Gun_MechLaserBlasterTurret</turretDef>
-        <angleOffset>-90</angleOffset>
-        <autoAttack>false</autoAttack>
       </li>
     </comps>
     <race>
       <body>Mech_Guardian</body>
-      <baseHealthScale>25</baseHealthScale>
+      <baseHealthScale>3</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -2170,14 +2164,12 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <IncomingDamageFactor>0.7</IncomingDamageFactor>
+	  <EMPResistance>0.10</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
 	  <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
-	  <MeleeDodgeChance>5.0</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-1.5</MeleeWeapon_CooldownMultiplier>
       <BandwidthCost>7</BandwidthCost>
     </statBases>
     <tools>
@@ -2195,7 +2187,7 @@
     </tools>
     <race>
       <body>MechanicalCentipede</body>
-      <baseHealthScale>15</baseHealthScale>
+      <baseHealthScale>4</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
@@ -2273,7 +2265,7 @@
     <label>alpha lancer</label>
     <description>An improved version of the lancer, now with faster movement speed for quicker response and interception.</description>
     <statBases>
-      <MoveSpeed>8.5</MoveSpeed>
+      <MoveSpeed>6.5</MoveSpeed>
 	  <HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	  <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	  <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -2282,9 +2274,9 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+	  <EMPResistance>0.10</EMPResistance>
+	  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>4</BandwidthCost>
     </statBases>
@@ -2325,7 +2317,7 @@
 	</comps>
     <race>
       <body>Lancer</body>
-      <baseHealthScale>3</baseHealthScale>
+      <baseHealthScale>1</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -2398,7 +2390,7 @@
     <label>alpha scyther</label>
     <description>An improved version of the scyther, now with four blades for improved DPS. The alpha scyther is oftenly seen in packs with other alpha scythers, making them a serious threat to anyone who's not well versed in melee combat.</description>
     <statBases>
-      <MoveSpeed>8.5</MoveSpeed>
+      <MoveSpeed>6.5</MoveSpeed>
 	  <HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	  <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	  <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -2407,9 +2399,9 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+	  <EMPResistance>0.10</EMPResistance>
+	  <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>4</BandwidthCost>
     </statBases>
@@ -2476,7 +2468,7 @@
 	</comps>
     <race>
       <body>Scyther</body>
-      <baseHealthScale>4</baseHealthScale>
+      <baseHealthScale>2</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -2546,7 +2538,7 @@
   <ThingDef ParentName="BaseMechanoidWalker">
     <defName>Mech_AlphaPikeman</defName>
     <label>alpha pikeman</label>
-    <description>An improved version of the pikeman, now with more armor and a slightly increase in movespeed.</description>
+    <description>An improved version of the pikeman, now with higher range but lower armor.</description>
     <statBases>
       <MoveSpeed>2.9</MoveSpeed>
 	  <HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
@@ -2557,11 +2549,11 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
-	  <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+	  <EMPResistance>0.10</EMPResistance>
+	  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <PsychicSensitivity>0</PsychicSensitivity>
-      <BandwidthCost>5</BandwidthCost>
+      <BandwidthCost>4</BandwidthCost>
     </statBases>
     <tools>
 	  <li>
@@ -2600,7 +2592,7 @@
 	</comps>
     <race>
       <body>Pikeman</body>
-      <baseHealthScale>9</baseHealthScale>
+      <baseHealthScale>1.1</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -2684,13 +2676,13 @@
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
       <MeleeDoorDamageFactor>1000</MeleeDoorDamageFactor>
-      <EMPResistance>0.99</EMPResistance>
-	  <ArmorRating_Blunt>2.00</ArmorRating_Blunt>
-      <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
-      <PsychicSensitivity>0</PsychicSensitivity>
+      <EMPResistance>0.2</EMPResistance>
+	  <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <PsychicSensitivity>1</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
     <race>
@@ -2706,7 +2698,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>1000</baseHealthScale>
+      <baseHealthScale>5.1</baseHealthScale>
       <dutyBoss>Warqueen</dutyBoss>
     </race>
     <tools>
@@ -2741,7 +2733,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>3000000</hitPoints>
+        <hitPoints>300</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -2753,7 +2745,7 @@
 	  <li Class="CompProperties_MechCarrier">
         <spawnPawnKind>Mech_ScythUrchin</spawnPawnKind>
         <fixedIngredient>Steel</fixedIngredient>
-        <costPerPawn>50</costPerPawn>
+        <costPerPawn>25</costPerPawn>
         <startingIngredientCount>1500</startingIngredientCount>
         <maxIngredientCount>1500</maxIngredientCount>
         <spawnEffecter>WarqueenWarUrchinsSpawned</spawnEffecter>
@@ -2842,12 +2834,13 @@
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
-      <MeleeDoorDamageFactor>10</MeleeDoorDamageFactor>
-      <EMPResistance>0.99</EMPResistance>
-	  <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.80</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
-      <PsychicSensitivity>0</PsychicSensitivity>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
+      <MeleeDoorDamageFactor>1000</MeleeDoorDamageFactor>
+      <EMPResistance>0.2</EMPResistance>
+	  <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <PsychicSensitivity>1</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
     </statBases>
     <race>
@@ -2863,7 +2856,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>20.9</baseHealthScale>
+      <baseHealthScale>5.1</baseHealthScale>
     </race>
     <tools>
       <li>
@@ -2897,7 +2890,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>10000</hitPoints>
+        <hitPoints>300</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
@@ -2973,7 +2966,7 @@
     <label>valkyrian</label>
     <description>An extremely agile mechanoid that personifies the valkyries of norse mythos. With a mech lance on one hand, the valkyrian can push through enemy defenses and impale enemy soldiers within seconds. The valkyrian is also unfazed when hit with bullets while closing in, and possess a handful of skills that are effective against singular and group targets. The valkyrian only spawns during a supreme apocriton raid, serving as the ultra boss's elite soldiers.</description>
     <statBases>
-      <MoveSpeed>30.5</MoveSpeed>
+      <MoveSpeed>15.5</MoveSpeed>
 	  <HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	  <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	  <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -2982,14 +2975,14 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
-	  <EMPResistance>0.99</EMPResistance>
+	  <IncomingDamageFactor>1</IncomingDamageFactor>
+	  <EMPResistance>0.1</EMPResistance>
 	  <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
-	  <StaggerDurationFactor>0</StaggerDurationFactor>
-      <BandwidthCost>7</BandwidthCost>
+	  <StaggerDurationFactor>0.5</StaggerDurationFactor>
+      <BandwidthCost>8</BandwidthCost>
     </statBases>
     <tools>
 	  <li>
@@ -3031,7 +3024,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>10000</hitPoints>
+        <hitPoints>100</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3043,7 +3036,7 @@
     </comps>
     <race>
       <body>Mech_Grunt</body>
-      <baseHealthScale>15</baseHealthScale>
+      <baseHealthScale>1.2</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -3136,43 +3129,61 @@
         <AccuracyMedium>0.90</AccuracyMedium>
         <AccuracyLong>0.85</AccuracyLong>
       </statBases>
-      <verbs>
-       <li>
-        <verbClass>Verb_ShootBeam</verbClass>
-        <defaultCooldownTime>6.5</defaultCooldownTime>
+     <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Beam_GammabeamTurret</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
         <range>24.9</range>
-        <beamFullWidthRange>6.9</beamFullWidthRange>
-        <beamWidth>6</beamWidth>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <burstShotCount>20</burstShotCount>
-        <beamDamageDef>GammaBeam</beamDamageDef>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ExtinctionRay_Shooting_Resolve</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <soundCastBeam>Shot_ExtinctionRay</soundCastBeam>
-        <beamGroundFleckDef>Fleck_BeamGamma</beamGroundFleckDef>
-        <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-        <beamMaxDeviation>1.5</beamMaxDeviation>
-        <beamCurvature>0.6</beamCurvature>
-        <beamMoteDef>Mote_GammaBeamBase</beamMoteDef>
-        <beamEndEffecterDef>GammaBeamz_End</beamEndEffecterDef>
-        <beamChanceToStartFire>0.85</beamChanceToStartFire>
-        <beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-        <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
-        <beamLineFleckDef>Fleck_GammaBeamSpark</beamLineFleckDef>
-        <beamStartOffset>0.8</beamStartOffset>
-		<linkedBodyPartsGroup>BulbTurret</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <beamLineFleckChanceCurve>
-          <points>
-            <li>(0, 0)</li>
-            <li>(0.65, 0.4)</li>
-            <li>(1, 0.75)</li>
-          </points>
-        </beamLineFleckChanceCurve>
-       </li>
-      </verbs>
+      </li>
+    </verbs>
     </ThingDef>
 	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Beam_GammabeamTurret</defName>
+		<label>Arc Bolt</label>
+		<description>An electric shock bolt</description>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Misc/Bullets/LaserShottest</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>GammaBeam</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>2</armorPenetrationBase>
+			<stoppingPower>5</stoppingPower>
+			<speed>10000</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>6</damageTickRate>
+				<lifetimeTicks>60</lifetimeTicks>
+				<beamWidth>1</beamWidth>
+				<beamWidthDrawScale>1</beamWidthDrawScale>
+				<sweepRatePerTick>0.8</sweepRatePerTick>
+				<maxSweepAngle>10</maxSweepAngle>
+				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+				<groundFleckDef>Fleck_BeamGamma</groundFleckDef>
+				<endEffecterDef>GraserBeam_End</endEffecterDef>
+				<fleckChancePerTick>0.32</fleckChancePerTick>
+				<textureScrollOffsetPerTick>(0, -0.3)</textureScrollOffsetPerTick>
+				<lockOnTarget>false</lockOnTarget>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<!-- MechLaserBlasterTurret -->
 	
 	<ThingDef ParentName="BaseWeaponTurret">
@@ -3188,20 +3199,20 @@
       </graphicData>
       <statBases>
         <Mass>49</Mass>
-        <AccuracyTouch>1.00</AccuracyTouch>
-        <AccuracyShort>1.00</AccuracyShort>
-        <AccuracyMedium>1.00</AccuracyMedium>
-        <AccuracyLong>1.00</AccuracyLong>
+        <AccuracyTouch>0.50</AccuracyTouch>
+        <AccuracyShort>0.60</AccuracyShort>
+        <AccuracyMedium>0.40</AccuracyMedium>
+        <AccuracyLong>0.30</AccuracyLong>
       </statBases>
       <verbs>
         <li>
           <verbClass>Verb_Shoot</verbClass>
           <hasStandardCommand>true</hasStandardCommand>
           <defaultProjectile>Bullet_MechLaserBlasterTurret</defaultProjectile>
-          <range>50.9</range>
-		  <defaultCooldownTime>2.5</defaultCooldownTime>
+          <range>25.9</range>
+		  <defaultCooldownTime>5.5</defaultCooldownTime>
 		  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-          <burstShotCount>40</burstShotCount>
+          <burstShotCount>10</burstShotCount>
 		  <minRange>4.9</minRange>
           <soundCast>Shot_LaserBlaster</soundCast>
           <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -3215,25 +3226,46 @@
    <ThingDef ParentName="BaseBullet">
     <defName>Bullet_MechLaserBlasterTurret</defName>
     <label>laser bullet</label>
-    <graphicData>
-      <texPath>Things/Misc/Bullets/LaserShot</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>MoteGlow</shaderType>
-    </graphicData>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Misc/Bullets/LaserShot</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
     <projectile>
       <damageDef>VitalityDrainBullet</damageDef>
-      <damageAmountBase>35</damageAmountBase>
-	  <armorPenetrationBase>3</armorPenetrationBase>
+      <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>1</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
-      <speed>120</speed>
+      <speed>1000</speed>
 	  <extraDamages>
          <li>
-          <amount>250</amount>
+          <amount>10</amount>
           <chance>0.2</chance>
           <def>Incinerate</def>
          </li>
       </extraDamages>
     </projectile>
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>25</damageTickRate>
+				<lifetimeTicks>15</lifetimeTicks>
+				<beamWidth>0.5</beamWidth>
+				<beamWidthDrawScale>1</beamWidthDrawScale>
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
+				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+				<groundFleckDef>Fleck_BeamBurn</groundFleckDef>
+				<endEffecterDef>GraserBeam_End</endEffecterDef>
+				<fleckChancePerTick>0.32</fleckChancePerTick>
+				<textureScrollOffsetPerTick>(0, -0.3)</textureScrollOffsetPerTick>
+				<lockOnTarget>false</lockOnTarget>
+			</li>
+		</modExtensions>
   </ThingDef>
   
   <!-- ChainGunTurret -->
@@ -3251,20 +3283,20 @@
       </graphicData>
       <statBases>
         <Mass>49</Mass>
-        <AccuracyTouch>1.00</AccuracyTouch>
-        <AccuracyShort>1.00</AccuracyShort>
-        <AccuracyMedium>1.00</AccuracyMedium>
-        <AccuracyLong>1.00</AccuracyLong>
+        <AccuracyTouch>0.70</AccuracyTouch>
+        <AccuracyShort>0.50</AccuracyShort>
+        <AccuracyMedium>0.30</AccuracyMedium>
+        <AccuracyLong>0.10</AccuracyLong>
       </statBases>
       <verbs>
         <li>
           <verbClass>Verb_Shoot</verbClass>
           <hasStandardCommand>true</hasStandardCommand>
           <defaultProjectile>Bullet_ChainGunTurret</defaultProjectile>
-          <range>50.9</range>
-		  <defaultCooldownTime>2.5</defaultCooldownTime>
-		  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-          <burstShotCount>30</burstShotCount>
+          <range>20.9</range>
+		  <defaultCooldownTime>6.5</defaultCooldownTime>
+		  <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+          <burstShotCount>10</burstShotCount>
           <soundCast>Shot_ChainGun</soundCast>
           <soundCastTail>GunTail_Heavy</soundCastTail>
           <muzzleFlashScale>20</muzzleFlashScale>
@@ -3277,6 +3309,9 @@
    <ThingDef ParentName="BaseBullet">
     <defName>Bullet_ChainGunTurret</defName>
     <label>laser bullet</label>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
     <graphicData>
       <texPath>Things/Misc/Bullets/MechChaingunShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -3284,25 +3319,41 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>5</armorPenetrationBase>
-      <stoppingPower>5</stoppingPower>
-      <speed>120</speed>
+      <damageAmountBase>7</damageAmountBase>
+	  <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>2</stoppingPower>
+      <speed>1000</speed>
 	  <extraDamages>
        <li>
-        <amount>9</amount>
+        <amount>3</amount>
         <chance>0.4</chance>
         <def>ShockBullets</def>
        </li>
       </extraDamages>
     </projectile>
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>25</damageTickRate>
+				<lifetimeTicks>15</lifetimeTicks>
+				<beamWidth>0.5</beamWidth>
+				<beamWidthDrawScale>1</beamWidthDrawScale>
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
+				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+
+				<fleckChancePerTick>0.32</fleckChancePerTick>
+				<textureScrollOffsetPerTick>(0, -0.3)</textureScrollOffsetPerTick>
+				<lockOnTarget>false</lockOnTarget>
+			</li>
+		</modExtensions>
   </ThingDef>
   
   <!-- MechLaserBlasterTurretEX -->
 	
 	<ThingDef ParentName="BaseWeaponTurret">
       <defName>Gun_MechLaserBlasterTurretEX</defName>
-      <label>laser blaster turret</label>
+      <label>Evolved Mech Laser Blaster Turret</label>
       <description>A heavy laser blaster turret that shoots even more deadly laser beams onto enemies of great quantity.</description>
       <tradeability>None</tradeability>
       <destroyOnDrop>true</destroyOnDrop>
@@ -3313,21 +3364,21 @@
       </graphicData>
       <statBases>
         <Mass>49</Mass>
-        <AccuracyTouch>1.00</AccuracyTouch>
-        <AccuracyShort>1.00</AccuracyShort>
-        <AccuracyMedium>1.00</AccuracyMedium>
-        <AccuracyLong>1.00</AccuracyLong>
+        <AccuracyTouch>0.30</AccuracyTouch>
+        <AccuracyShort>0.20</AccuracyShort>
+        <AccuracyMedium>0.20</AccuracyMedium>
+        <AccuracyLong>0.20</AccuracyLong>
       </statBases>
       <verbs>
         <li>
           <verbClass>Verb_Shoot</verbClass>
           <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>Bullet_MechLaserBlasterTurretEX</defaultProjectile>
-          <range>75</range>
-		  <defaultCooldownTime>2.5</defaultCooldownTime>
+          <defaultProjectile>Bullet_MechLaserBlasterTurret</defaultProjectile>
+          <range>40</range>
+		  <defaultCooldownTime>10.5</defaultCooldownTime>
 		  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-          <burstShotCount>150</burstShotCount>
-		  <minRange>4.9</minRange>
+          <burstShotCount>20</burstShotCount>
+		  <minRange>10.9</minRange>
           <soundCast>Shot_LaserBlaster</soundCast>
           <soundCastTail>GunTail_Heavy</soundCastTail>
           <muzzleFlashScale>20</muzzleFlashScale>
@@ -3337,35 +3388,6 @@
       </verbs>
    </ThingDef>
 	
-   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_MechLaserBlasterTurretEX</defName>
-    <label>laser bullet</label>
-    <graphicData>
-      <texPath>Things/Misc/Bullets/DummyBullet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>MoteGlow</shaderType>
-    </graphicData>
-	<comps>
-	  <li Class="Kraltech_Industries.LaserBeamz_CompProperties">
-	    <laserMote>Mote_LaserBlasterEX</laserMote>
-	  </li>
-	</comps>
-	<thingClass>Kraltech_Industries.LaserBeamzProj</thingClass>
-    <projectile>
-      <damageDef>ArmorBreakerBullet</damageDef>
-      <damageAmountBase>65</damageAmountBase>
-	  <armorPenetrationBase>5</armorPenetrationBase>
-      <stoppingPower>1</stoppingPower>
-      <speed>1000</speed>
-	  <extraDamages>
-         <li>
-          <amount>45</amount>
-          <chance>0.2</chance>
-          <def>DeathBullet</def>
-         </li>
-      </extraDamages>
-    </projectile>
-  </ThingDef>
   
   <!-- ThunderTurret -->
 	
@@ -3382,21 +3404,21 @@
       </graphicData>
       <statBases>
         <Mass>49</Mass>
-        <AccuracyTouch>1.00</AccuracyTouch>
-        <AccuracyShort>1.00</AccuracyShort>
-        <AccuracyMedium>1.00</AccuracyMedium>
-        <AccuracyLong>1.00</AccuracyLong>
+        <AccuracyTouch>0.10</AccuracyTouch>
+        <AccuracyShort>0.15</AccuracyShort>
+        <AccuracyMedium>0.20</AccuracyMedium>
+        <AccuracyLong>0.30</AccuracyLong>
       </statBases>
       <verbs>
         <li>
           <verbClass>Verb_Shoot</verbClass>
           <hasStandardCommand>true</hasStandardCommand>
           <defaultProjectile>Bullet_Thunder</defaultProjectile>
-          <range>75</range>
-		  <defaultCooldownTime>1.5</defaultCooldownTime>
+          <range>35</range>
+		  <defaultCooldownTime>3.5</defaultCooldownTime>
 		  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-          <burstShotCount>35</burstShotCount>
-		  <minRange>4.9</minRange>
+          <burstShotCount>3</burstShotCount>
+		  <minRange>10.9</minRange>
           <soundCast>Shot_BurnRifle</soundCast>
           <soundCastTail>GunTail_Heavy</soundCastTail>
           <muzzleFlashScale>10</muzzleFlashScale>
@@ -3417,8 +3439,8 @@
     </graphicData>
     <projectile>
       <damageDef>MjolnirThunderStrike</damageDef>
-	  <damageAmountBase>75</damageAmountBase>
-	  <armorPenetrationBase>7.5</armorPenetrationBase>
+	  <damageAmountBase>8</damageAmountBase>
+	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <speed>150</speed>
     </projectile>
   </ThingDef>
@@ -3441,17 +3463,17 @@
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
-	  <IncomingDamageFactor>0.2</IncomingDamageFactor>
+	  <IncomingDamageFactor>0.9</IncomingDamageFactor>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
-      <MeleeDoorDamageFactor>1000</MeleeDoorDamageFactor>
-	  <StaggerDurationFactor>0</StaggerDurationFactor>
-      <EMPResistance>2.00</EMPResistance>
-	  <ArmorRating_Blunt>2.00</ArmorRating_Blunt>
-      <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
-      <PsychicSensitivity>0</PsychicSensitivity>
-      <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
-	  <BandwidthCost>60</BandwidthCost>
+      <MeleeDoorDamageFactor>1</MeleeDoorDamageFactor>
+	  <StaggerDurationFactor>0.5</StaggerDurationFactor>
+      <EMPResistance>0.20</EMPResistance>
+	  <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <MechEnergyLossPerHP>0.10</MechEnergyLossPerHP>
+	  <BandwidthCost>20</BandwidthCost>
     </statBases>
     <race>
       <body>Mech_Mjolnir</body>
@@ -3466,7 +3488,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>1000</baseHealthScale>
+      <baseHealthScale>5</baseHealthScale>
     </race>
     <tools>
       <li>
@@ -3474,9 +3496,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>90</power>
-		<armorPenetration>9.10</armorPenetration>
-        <cooldownTime>0.5</cooldownTime>
+        <power>30</power>
+		<armorPenetration>1.10</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
@@ -3485,9 +3507,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>90</power>
-		<armorPenetration>9.10</armorPenetration>
-        <cooldownTime>0.5</cooldownTime>
+        <power>35</power>
+		<armorPenetration>1.10</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
@@ -3500,7 +3522,7 @@
         <color>(0, 0.71, 0.93)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>3000000</hitPoints>
+        <hitPoints>300</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3582,13 +3604,13 @@
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
       <EnergyShieldRechargeRate>1.2</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
-      <MeleeDoorDamageFactor>500</MeleeDoorDamageFactor>
+      <MeleeDoorDamageFactor>1</MeleeDoorDamageFactor>
 	  <StaggerDurationFactor>0</StaggerDurationFactor>
-      <EMPResistance>1.00</EMPResistance>
-	  <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <EMPResistance>0.20</EMPResistance>
+	  <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
-      <PsychicSensitivity>0</PsychicSensitivity>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
+      <PsychicSensitivity>1</PsychicSensitivity>
       <MechEnergyLossPerHP>0.15</MechEnergyLossPerHP>
 	  <BandwidthCost>60</BandwidthCost>
     </statBases>
@@ -3605,7 +3627,7 @@
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>250</baseHealthScale>
+      <baseHealthScale>5</baseHealthScale>
     </race>
     <tools>
       <li>
@@ -3613,9 +3635,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>90</power>
-		<armorPenetration>9.10</armorPenetration>
-        <cooldownTime>0.5</cooldownTime>
+        <power>10</power>
+		<armorPenetration>1.10</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
@@ -3624,9 +3646,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>90</power>
-		<armorPenetration>9.10</armorPenetration>
-        <cooldownTime>0.5</cooldownTime>
+        <power>10</power>
+		<armorPenetration>1.10</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
@@ -3639,7 +3661,7 @@
         <color>(0, 0.71, 0.93)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>1500000</hitPoints>
+        <hitPoints>300</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3704,7 +3726,7 @@
       <label>militor MK2 "Assault"</label>
       <description>A militor mk2 with advanced modifications which makes it highly adept in combat, and able to perform most jobs that a normal human can do.</description>
       <statBases>
-        <MoveSpeed>9.8</MoveSpeed>
+        <MoveSpeed>4.8</MoveSpeed>
 		<HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	    <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	    <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -3715,11 +3737,11 @@
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
 		<RageVirusEnvironmentResistance>4.0</RageVirusEnvironmentResistance>
 		<RageVirusResistance>4.0</RageVirusResistance>
-		<EMPResistance>0.90</EMPResistance>
+		<EMPResistance>0.20</EMPResistance>
 		<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
-		<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		<BandwidthCost>2</BandwidthCost>
       </statBases>
       <race>
@@ -3747,7 +3769,7 @@
           <color>(0.7, 0.0, 0.0)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>150</hitPoints>
+          <hitPoints>30</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>900</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3795,7 +3817,7 @@
       <label>militor MK2 "Heavy"</label>
       <description>A militor mk2 with advanced modifications which makes it an effective tank, and able to perform most jobs that a normal human can do.</description>
       <statBases>
-        <MoveSpeed>4.8</MoveSpeed>
+        <MoveSpeed>3.8</MoveSpeed>
 		<HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	    <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	    <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -3806,13 +3828,13 @@
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
 		<RageVirusEnvironmentResistance>4.0</RageVirusEnvironmentResistance>
 		<RageVirusResistance>4.0</RageVirusResistance>
-		<EMPResistance>0.90</EMPResistance>
+		<EMPResistance>0.20</EMPResistance>
 		<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
 		<ConstructionSpeed>2.5</ConstructionSpeed>
-		<IncomingDamageFactor>0.2</IncomingDamageFactor>
-		<ArmorRating_Blunt>1.35</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.85</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<IncomingDamageFactor>0.9</IncomingDamageFactor>
+		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		<BandwidthCost>5</BandwidthCost>
       </statBases>
       <race>
@@ -3822,7 +3844,7 @@
 		  <li>Construction</li>
 		  <li>Mining</li>		  
         </mechEnabledWorkTypes>
-	    <baseHealthScale>5</baseHealthScale>
+	    <baseHealthScale>2</baseHealthScale>
         <lifeStageAges>
           <li>
             <def>MechanoidFullyFormed</def>
@@ -3840,7 +3862,7 @@
           <color>(1.0, 1.0, 0.0)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>10000</hitPoints>
+          <hitPoints>300</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>300</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3890,7 +3912,7 @@
       <label>militor MK2 "Medic"</label>
       <description>A militor mk2 with advanced modifications which makes it an effective combat medic, and able to perform most jobs that a normal human can do.</description>
       <statBases>
-        <MoveSpeed>6.8</MoveSpeed>
+        <MoveSpeed>4.8</MoveSpeed>
 		<HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	    <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	    <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -3901,11 +3923,11 @@
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
 		<RageVirusEnvironmentResistance>4.0</RageVirusEnvironmentResistance>
 		<RageVirusResistance>4.0</RageVirusResistance>
-		<EMPResistance>0.90</EMPResistance>
+		<EMPResistance>0.20</EMPResistance>
 		<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
-		<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		<BandwidthCost>3</BandwidthCost>
       </statBases>
       <race>
@@ -3916,7 +3938,7 @@
 		  <li>Doctor</li>		  
 		  <li>Cooking</li>		  		 
         </mechEnabledWorkTypes>
-	    <baseHealthScale>5</baseHealthScale>
+	    <baseHealthScale>1.5</baseHealthScale>
         <lifeStageAges>
           <li>
             <def>MechanoidFullyFormed</def>
@@ -3934,7 +3956,7 @@
           <color>(0.1, 1.0, 1.0)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>500</hitPoints>
+          <hitPoints>100</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>900</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -3997,11 +4019,11 @@
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
 		<RageVirusEnvironmentResistance>4.0</RageVirusEnvironmentResistance>
 		<RageVirusResistance>4.0</RageVirusResistance>
-		<EMPResistance>0.90</EMPResistance>
+		<EMPResistance>0.20</EMPResistance>
 		<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
-		<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		<BandwidthCost>2</BandwidthCost>
       </statBases>
       <race>
@@ -4012,7 +4034,7 @@
 		  <li>Growing</li>
 		  <li>PlantCutting</li>
         </mechEnabledWorkTypes>
-	    <baseHealthScale>5</baseHealthScale>
+	    <baseHealthScale>1</baseHealthScale>
         <lifeStageAges>
           <li>
             <def>MechanoidFullyFormed</def>
@@ -4030,7 +4052,7 @@
           <color>(0.5, 0.0, 0.4)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>200</hitPoints>
+          <hitPoints>10</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>900</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -4079,7 +4101,7 @@
       <label>militor MK2 "Specialist"</label>
       <description>A militor mk2 with advanced modifications which makes it an excellent CnC specialist, and able to perform most jobs that a normal human can do.</description>
       <statBases>
-        <MoveSpeed>5.8</MoveSpeed>
+        <MoveSpeed>4.8</MoveSpeed>
 		<HeatNullNaniteResistance>4.0</HeatNullNaniteResistance>
 	    <HeatNullNaniteEnvironmentResistance>4.0</HeatNullNaniteEnvironmentResistance>
 	    <ColdNullNaniteResistance>4.0</ColdNullNaniteResistance>
@@ -4090,11 +4112,11 @@
 	    <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
 		<RageVirusEnvironmentResistance>4.0</RageVirusEnvironmentResistance>
 		<RageVirusResistance>4.0</RageVirusResistance>
-		<EMPResistance>0.90</EMPResistance>
+		<EMPResistance>0.20</EMPResistance>
 		<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
-		<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-        <ArmorRating_Sharp>1.55</ArmorRating_Sharp>
-	    <ArmorRating_Heat>9.00</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+	    <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		<BandwidthCost>3</BandwidthCost>
       </statBases>
       <race>
@@ -4117,35 +4139,13 @@
         </lifeStageAges>
       </race>
 	  <comps>
-		<li Class="taranchuk_nomadcrafting.CompProperties_NomadCrafting">
-			<craftingSpeed>2</craftingSpeed>
-			<recipes>
-				<li>CVN_ResurrectLightMech</li>
-				<li>Make_ComponentIndustrial</li>
-				<li>Make_ChemfuelFromOrganics</li>
-			</recipes>
-			<mechClassesToGestate>
-				<li>Light</li>
-				<li>Medium</li>
-				<li>Heavy</li>
-			</mechClassesToGestate>
-			<pullRecipesFrom>
-				<li>FabricationBench</li>
-				<li>TableMachining</li>
-			</pullRecipesFrom>
-			<qualityRange>
-				<li>Excellent</li>
-				<li>Masterwork</li>
-			</qualityRange>
-			<countOfBillsProcessed>3</countOfBillsProcessed>
-		</li>
 	    <li Class="CompProperties_ProjectileInterceptor">
           <radius>1</radius>
           <interceptGroundProjectiles>true</interceptGroundProjectiles>
           <color>(0.3, 0.0, 0.9)</color>
           <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>BulletShield_Ambience</activeSound>
-          <hitPoints>900</hitPoints>
+          <hitPoints>100</hitPoints>
           <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
           <chargeDurationTicks>200</chargeDurationTicks>
           <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -4214,10 +4214,10 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
+	  <EMPResistance>0.10</EMPResistance>
 	  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
       <BandwidthCost>5</BandwidthCost>
     </statBases>
@@ -4261,7 +4261,7 @@
         <color>(0.0, 0.8, 0.0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <activeSound>BulletShield_Ambience</activeSound>
-        <hitPoints>1900</hitPoints>
+        <hitPoints>100</hitPoints>
         <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
         <chargeDurationTicks>900</chargeDurationTicks>
         <rechargeHitPointsIntervalTicks>1</rechargeHitPointsIntervalTicks>
@@ -4278,7 +4278,7 @@
 	</comps>
     <race>
       <body>Mech_AlphaTesseron</body>
-      <baseHealthScale>5</baseHealthScale>
+      <baseHealthScale>3</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -4360,13 +4360,11 @@
 	  <RadiationEnvironmentResistance>4.0</RadiationEnvironmentResistance>
 	  <AntiOrgToxinResistance>4.0</AntiOrgToxinResistance>
 	  <AntiOrgToxinEnvironmentResistance>4.0</AntiOrgToxinEnvironmentResistance>
-	  <EMPResistance>0.90</EMPResistance>
+	  <EMPResistance>0.10</EMPResistance>
 	  <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
-	  <ArmorRating_Heat>9.00</ArmorRating_Heat>
+	  <ArmorRating_Heat>2.00</ArmorRating_Heat>
       <PsychicSensitivity>0</PsychicSensitivity>
-	  <MeleeDodgeChance>5.0</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-1.5</MeleeWeapon_CooldownMultiplier>
       <BandwidthCost>7</BandwidthCost>
     </statBases>
     <tools>
@@ -4386,7 +4384,7 @@
 	  <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>MechanicalTermite</body>
-      <baseHealthScale>15</baseHealthScale>
+      <baseHealthScale>5</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
