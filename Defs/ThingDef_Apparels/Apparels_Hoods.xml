@@ -38,15 +38,15 @@
       <WorkToMake>2000</WorkToMake>
       <Mass>0.25</Mass>
       <Flammability>0.5</Flammability>
-      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.9</ArmorRating_Heat>
-      <Insulation_Cold>15</Insulation_Cold>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
-	  <PainShockThreshold>0.5</PainShockThreshold>
+	  <PainShockThreshold>0.2</PainShockThreshold>
 	  <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
 	  <HeatNullNaniteResistance>0.15</HeatNullNaniteResistance>
 	  <HeatNullNaniteEnvironmentResistance>0.15</HeatNullNaniteEnvironmentResistance>
@@ -91,7 +91,7 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>90</costStuffCount>
     <tradeTags>
       <li>Clothing</li>
       <li>Armor</li>
@@ -100,9 +100,9 @@
       <WorkToMake>4200</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>0.25</Mass>
-      <StuffEffectMultiplierArmor>1.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.2</StuffEffectMultiplierInsulation_Heat>	  
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>	  
       <EquipDelay>1.5</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
