@@ -243,8 +243,8 @@
 	  <AdvancedGunPartsKit>1</AdvancedGunPartsKit>
     </costList>
     <verbs>
-      <li Class="Kraltech_Industries.Verb_Properties_AccurateShot">
-        <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
+ 	<li Class="Shotgunz.Verb_Properties_Shotgunz">
+        <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_APAutoShotgun</defaultProjectile>
         <warmupTime>1.5</warmupTime>
@@ -253,7 +253,8 @@
         <range>15</range>
         <soundCast>Shot_AdvancedAutoShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>10</muzzleFlashScale>
+        <muzzleFlashScale>9</muzzleFlashScale>
+	    <pellets>6</pellets>
       </li>
     </verbs>
     <tools>
@@ -294,7 +295,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>5</damageAmountBase>
 	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <stoppingPower>2.0</stoppingPower>
       <speed>150</speed>

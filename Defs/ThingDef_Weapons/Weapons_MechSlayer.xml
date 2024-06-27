@@ -359,7 +359,7 @@
         <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_LaserShotgun</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>1.5</warmupTime>
 		<burstShotCount>10</burstShotCount>
         <range>19</range>
 		<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -369,6 +369,21 @@
 		<targetParams>
 		  <canTargetPawns>true</canTargetPawns>
         </targetParams>
+      </li>
+    </verbs>
+	<verbs>
+ 	<li Class="Shotgunz.Verb_Properties_Shotgunz">
+        <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_APAutoShotgun</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+		<burstShotCount>1</burstShotCount>
+		<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <range>19</range>
+        <soundCast>Shot_LaserShotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+	    <pellets>10</pellets>
       </li>
     </verbs>
     <tools>
@@ -409,7 +424,7 @@
     </graphicData>
     <projectile>
       <damageDef>LaserHeavyDam</damageDef>
-	  <damageAmountBase>18</damageAmountBase>
+	  <damageAmountBase>2.5</damageAmountBase>
 	  <armorPenetrationBase>2.0</armorPenetrationBase>
       <stoppingPower>4</stoppingPower>
       <speed>150</speed>

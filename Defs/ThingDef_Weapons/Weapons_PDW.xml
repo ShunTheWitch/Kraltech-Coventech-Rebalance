@@ -248,16 +248,17 @@
       <SuperSteel>100</SuperSteel>
       <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
     </costList>
-    <verbs>
-      <li Class="Kraltech_Industries.Verb_Properties_AccurateShot">
-        <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
+	<verbs>
+ 	<li Class="Shotgunz.Verb_Properties_Shotgunz">
+        <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_PumpShotgun</defaultProjectile>
-		<warmupTime>1</warmupTime>
+        <warmupTime>1</warmupTime>
         <range>18</range>
         <soundCast>Shot_PDWShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+	    <pellets>8</pellets>
       </li>
     </verbs>
     <weaponTags>
@@ -292,13 +293,13 @@
     <defName>Bullet_PumpShotgun</defName>
     <label>shotgun pellet</label>
     <graphicData>
-      <texPath>Things/Misc/Bullets/SlugShot</texPath>
+      <texPath>Things/Misc/Bullets/ArmorPiercingBullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>24</damageAmountBase>
+      <damageAmountBase>3</damageAmountBase>
 	  <stoppingPower>4.0</stoppingPower>
 	  <armorPenetrationBase>0.05</armorPenetrationBase>
       <speed>150</speed>
