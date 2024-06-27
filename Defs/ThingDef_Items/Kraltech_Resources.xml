@@ -43,7 +43,6 @@
 				<MaxHitPoints>3.5</MaxHitPoints>
 				<Flammability>0</Flammability>
 				<Beauty>2</Beauty>
-				<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -67,11 +66,11 @@
 			<Mass>1</Mass>
 			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>1.25</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Heat>2</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>2.50</SharpDamageMultiplier>
-			<BluntDamageMultiplier>2.25</BluntDamageMultiplier>
+			<SharpDamageMultiplier>2.25</SharpDamageMultiplier>
+			<BluntDamageMultiplier>2</BluntDamageMultiplier>
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
@@ -91,7 +90,6 @@
 				<Flammability>0</Flammability>
 				<Beauty>2</Beauty>
 				<DoorOpenSpeed>0.75</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.75</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
