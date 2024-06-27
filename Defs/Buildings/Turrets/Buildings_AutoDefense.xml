@@ -22,7 +22,8 @@
     </graphicData>   
     <techLevel>Spacer</techLevel>	
 	<costList>
-      <Steel>180</Steel>
+      <Steel>250</Steel>
+	  <Plasteel>50</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
@@ -88,7 +89,7 @@
         <fuelGizmoLabel>Ammo left</fuelGizmoLabel>
         <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
         <fuelFilter><thingDefs><li>AmmoBox</li></thingDefs></fuelFilter>
-        <fuelCapacity>300</fuelCapacity>       
+        <fuelCapacity>200</fuelCapacity>       
         <fuelMultiplier>1</fuelMultiplier>  
         <initialFuelPercent>1</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
@@ -119,9 +120,9 @@
     </graphicData>
     <statBases>
       <AccuracyTouch>0.28</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
@@ -131,7 +132,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Bullet_HeavyMachinegun</defaultProjectile>
-        <warmupTime>0</warmupTime>
+        <warmupTime>0.5</warmupTime>
         <minRange>6</minRange>
         <range>35.9</range>
 		<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
@@ -153,8 +154,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
-	  <armorPenetrationBase>0.75</armorPenetrationBase>
+      <damageAmountBase>15</damageAmountBase>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
       <speed>110</speed>
     </projectile>
   </ThingDef>
@@ -216,7 +217,7 @@
         <fuelGizmoLabel>Ammo left</fuelGizmoLabel>
         <outOfFuelMessage>Out of ammo</outOfFuelMessage>
         <fuelFilter><thingDefs><li>AmmoBox</li></thingDefs></fuelFilter>
-        <fuelCapacity>300</fuelCapacity>       
+        <fuelCapacity>100</fuelCapacity>       
         <fuelMultiplier>1</fuelMultiplier> 
         <initialFuelPercent>1</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
@@ -234,10 +235,10 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>70</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <costList>
       <Steel>100</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -268,10 +269,10 @@
     </graphicData>
     <statBases>
       <AccuracyTouch>0.77</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.24</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>15</Mass>
       <Flammability>0</Flammability>
@@ -280,10 +281,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Bullet_RFMiniTurret</defaultProjectile>
-        <warmupTime>0</warmupTime>
-        <range>25.9</range>
+        <warmupTime>0.5</warmupTime>
+        <range>27</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>10</burstShotCount>
         <soundCast>Shot_HCAR</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -301,8 +302,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-	  <armorPenetrationBase>0.45</armorPenetrationBase>
+      <damageAmountBase>12</damageAmountBase>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
       <speed>100</speed>
     </projectile>
   </ThingDef>
@@ -328,7 +329,7 @@
     </graphicData>   
     <techLevel>Spacer</techLevel>	
 	<costList>
-      <Steel>360</Steel>
+      <Steel>250</Steel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
@@ -374,7 +375,7 @@
      <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>150</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <comps>
       <li Class="CompProperties_Explosive">
         <wickTicks>240</wickTicks>
@@ -424,11 +425,11 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <statBases>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>10</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>70</Mass>
       <Flammability>0</Flammability>
@@ -437,8 +438,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Bullet_FlakCannon</defaultProjectile>
-		<forcedMissRadius>0.5</forcedMissRadius>
-        <warmupTime>5</warmupTime>
+		<forcedMissRadius>2</forcedMissRadius>
+        <warmupTime>3</warmupTime>
         <minRange>9</minRange>
         <range>50</range>
         <soundCast>Shot_CannonShot</soundCast>
@@ -459,7 +460,7 @@
 	<thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>BombHighExShell</damageDef>
-      <explosionRadius>5.9</explosionRadius>
+      <explosionRadius>3</explosionRadius>
 	  <armorPenetrationBase>1.5</armorPenetrationBase>
       <speed>150</speed>
     </projectile>
@@ -497,18 +498,18 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <costStuffCount>200</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <costList>
-      <Steel>450</Steel>
+      <Steel>250</Steel>
       <ComponentSpacer>6</ComponentSpacer>
     </costList>
     <inspectorTabs>
     </inspectorTabs>    
     <statBases>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.66</AccuracyLong>
       <RangedWeapon_Cooldown>9</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>90</Mass>
@@ -518,8 +519,8 @@
       <Beauty>-5</Beauty>
     </statBases>
     <building>
-      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretBurstWarmupTime>7.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>20.0</turretBurstCooldownTime>
       <buildingTags>
       </buildingTags>
     </building>
@@ -572,9 +573,10 @@
 	  <difficultyVar>classicMortars</difficultyVar>
       <invert>true</invert>
       <costList>
+	    <Steel>250</Steel>
         <ComponentSpacer>6</ComponentSpacer>
       </costList>
-      <costStuffCount>450</costStuffCount>
+      <costStuffCount>250</costStuffCount>
     </costListForDifficulty>
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -605,12 +607,12 @@
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 		<defaultProjectile>Proj_Missile</defaultProjectile>
         <warmupTime>5</warmupTime>
-        <forcedMissRadius>1.5</forcedMissRadius>
+        <forcedMissRadius>5</forcedMissRadius>
         <isMortar>true</isMortar>
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>6.9</minRange>
         <range>500</range>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Shot_Missile</soundCast>
         <muzzleFlashScale>20</muzzleFlashScale>
         <consumeFuelPerShot>1</consumeFuelPerShot>
@@ -635,8 +637,8 @@
     <projectile>
       <damageDef>Bomb</damageDef>
 	  <flyOverhead>true</flyOverhead>
-      <explosionRadius>9.9</explosionRadius>
-	  <armorPenetrationBase>2.5</armorPenetrationBase>
+      <explosionRadius>5</explosionRadius>
+	  <armorPenetrationBase>1</armorPenetrationBase>
       <speed>100</speed>
     </projectile>
   </ThingDef>
