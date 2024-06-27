@@ -407,7 +407,7 @@
     </graphicData>
     <projectile>
       <damageDef>LaserHeavyDam</damageDef>
-	  <damageAmountBase>2.5</damageAmountBase>
+	  <damageAmountBase>3</damageAmountBase>
 	  <armorPenetrationBase>2.0</armorPenetrationBase>
       <stoppingPower>4</stoppingPower>
       <speed>150</speed>
