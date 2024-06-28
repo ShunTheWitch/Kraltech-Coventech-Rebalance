@@ -78,16 +78,16 @@
     <deathMessage>{0} has been blasted by superheated plasma.</deathMessage>
     <hediff>Burn</hediff>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <defaultDamage>1000</defaultDamage>
+    <defaultDamage>100</defaultDamage>
     <defaultStoppingPower>1.5</defaultStoppingPower>
     <defaultArmorPenetration>1</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>20</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>10</buildingDamageFactorPassable>
+    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>5</buildingDamageFactorPassable>
     <plantDamageFactor>2</plantDamageFactor>
     <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
     <explosionCellFleck>FireBlast</explosionCellFleck>
     <armorCategory>Heat</armorCategory>
-    <minDamageToFragment>50</minDamageToFragment>
+    <minDamageToFragment>20</minDamageToFragment>
     <makesAnimalsFlee>true</makesAnimalsFlee>
     <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
@@ -108,11 +108,11 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Sharp</armorCategory>
-    <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>50</defaultDamage>
+    <minDamageToFragment>10</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+    <buildingDamageFactorImpassable>2</buildingDamageFactorImpassable>
     <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
     <plantDamageFactor>4</plantDamageFactor>
     <corpseDamageFactor>0.5</corpseDamageFactor>
@@ -132,7 +132,7 @@
     <deathMessage>{0} has been blasted to oblivion.</deathMessage>
     <hediff>Shredded</hediff>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <defaultDamage>75</defaultDamage>
+    <defaultDamage>45</defaultDamage>
     <defaultStoppingPower>1.5</defaultStoppingPower>
     <defaultArmorPenetration>1.7</defaultArmorPenetration>
     <buildingDamageFactorImpassable>10</buildingDamageFactorImpassable>
@@ -141,7 +141,7 @@
     <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
     <explosionCellFleck>ChargedBlast</explosionCellFleck>
     <armorCategory>Sharp</armorCategory>
-    <minDamageToFragment>25</minDamageToFragment>
+    <minDamageToFragment>15</minDamageToFragment>
     <makesAnimalsFlee>true</makesAnimalsFlee>
     <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
@@ -202,16 +202,16 @@
     <deathMessage>{0} has been blasted by psychic explosion.</deathMessage>
     <hediff>Burn</hediff>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <defaultDamage>50</defaultDamage>
+    <defaultDamage>30</defaultDamage>
     <defaultStoppingPower>1.5</defaultStoppingPower>
     <defaultArmorPenetration>1</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>20</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>10</buildingDamageFactorPassable>
+    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>4</buildingDamageFactorPassable>
     <plantDamageFactor>2</plantDamageFactor>
     <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
     <explosionCellFleck>DroneExplosion</explosionCellFleck>
     <armorCategory>Heat</armorCategory>
-    <minDamageToFragment>50</minDamageToFragment>
+    <minDamageToFragment>30</minDamageToFragment>
     <makesAnimalsFlee>true</makesAnimalsFlee>
     <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
@@ -862,10 +862,10 @@
     <deathMessage>{0} have peaced-out.</deathMessage>
 	<hediff>Shredded</hediff>
 	<armorCategory>Sharp</armorCategory>
-    <defaultDamage>1500</defaultDamage>
-	<defaultArmorPenetration>9.10</defaultArmorPenetration>
+    <defaultDamage>20</defaultDamage>
+	<defaultArmorPenetration>2.10</defaultArmorPenetration>
 	<harmsHealth>true</harmsHealth>
-	<buildingDamageFactorImpassable>20</buildingDamageFactorImpassable>
+	<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
     <buildingDamageFactorPassable>10</buildingDamageFactorPassable>
     <plantDamageFactor>450</plantDamageFactor>
 	<explosionSnowMeltAmount>450</explosionSnowMeltAmount>
@@ -876,7 +876,7 @@
 	<soundExplosion>Explosion_MechBandShockwave</soundExplosion>
     <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
     <hasForcefulImpact>true</hasForcefulImpact>
-    <corpseDamageFactor>20</corpseDamageFactor>
+    <corpseDamageFactor>0</corpseDamageFactor>
   </DamageDef>
   
   <DamageDef>
@@ -1047,8 +1047,8 @@
 	<hediffSolid>Corrosion</hediffSolid>
 	<armorCategory>Sharp</armorCategory>
 	<harmsHealth>true</harmsHealth>
-	<defaultDamage>120</defaultDamage>
-	<minDamageToFragment>120</minDamageToFragment>
+	<defaultDamage>250</defaultDamage>
+	<minDamageToFragment>250</minDamageToFragment>
 	<defaultStoppingPower>3.0</defaultStoppingPower>
 	<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 	<defaultArmorPenetration>2.5</defaultArmorPenetration>
