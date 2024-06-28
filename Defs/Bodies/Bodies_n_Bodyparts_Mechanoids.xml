@@ -2277,7 +2277,7 @@
   <BodyPartDef>
     <defName>MechWing</defName>
     <label>mech wing</label>
-    <hitPoints>4500</hitPoints>
+    <hitPoints>60</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -2288,7 +2288,7 @@
   <BodyPartDef>
     <defName>MechHalo</defName>
     <label>mech halo</label>
-    <hitPoints>2500</hitPoints>
+    <hitPoints>40</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
