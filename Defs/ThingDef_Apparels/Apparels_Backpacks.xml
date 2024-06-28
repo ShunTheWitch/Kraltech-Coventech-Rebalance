@@ -29,25 +29,22 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>250</SuperSteel>
-      <ComponentSpacer>20</ComponentSpacer>
-      <MechFussionCore>150</MechFussionCore>
+      <SuperSteel>150</SuperSteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <MechFussionCore>10</MechFussionCore>
     </costList>
     <graphicData>
       <texPath>Things/ArmorsAndClothes/Kral's_Protectives/KraltechFactionApparels/EnforcerUtility/Packs/EnforcerMultiPack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
-	  <MarketValue>7500</MarketValue>
+      <WorkToMake>10000</WorkToMake>
+	  <MarketValue>4500</MarketValue>
       <Mass>3</Mass>
       <Flammability>0</Flammability>
       <EquipDelay>2</EquipDelay>
-	  <ArmorRating_Sharp>2.55</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.35</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.7</ArmorRating_Heat>
-	  <EnergyShieldRechargeRate>1.7</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>20.00</EnergyShieldEnergyMax>
+	  <EnergyShieldRechargeRate>0.50</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.00</EnergyShieldEnergyMax>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
@@ -81,7 +78,6 @@
         <thin>  <scale>(0.7,0.7)</scale></thin>
         <hulk>  <scale>(0.9,0.9)</scale></hulk>
         <fat>   <scale>(0.9,0.9)</scale></fat>
-
       </wornGraphicData>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <careIfDamaged>false</careIfDamaged>
@@ -129,25 +125,22 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>250</SuperSteel>
-      <ComponentSpacer>20</ComponentSpacer>
-      <MechFussionCore>150</MechFussionCore>
+      <SuperSteel>150</SuperSteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <MechFussionCore>10</MechFussionCore>
     </costList>
     <graphicData>
       <texPath>Things/ArmorsAndClothes/Kral's_Protectives/KraltechFactionApparels/EnforcerUtility/Packs/EnforcerMultiPack1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
-	  <MarketValue>7500</MarketValue>
+      <WorkToMake>10000</WorkToMake>
+	  <MarketValue>4500</MarketValue>
       <Mass>3</Mass>
       <Flammability>0</Flammability>
       <EquipDelay>2</EquipDelay>
-	  <ArmorRating_Sharp>2.55</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.35</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.7</ArmorRating_Heat>
-	  <EnergyShieldRechargeRate>1.7</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>20.00</EnergyShieldEnergyMax>
+	  <EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
@@ -181,7 +174,6 @@
         <thin>  <scale>(0.7,0.7)</scale></thin>
         <hulk>  <scale>(0.9,0.9)</scale></hulk>
         <fat>   <scale>(0.9,0.9)</scale></fat>
-
       </wornGraphicData>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <careIfDamaged>false</careIfDamaged>
@@ -236,7 +228,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
 	  <MarketValue>450</MarketValue>
       <Mass>3</Mass>
       <Flammability>0</Flammability>
