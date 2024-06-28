@@ -13,11 +13,11 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>45</range>
 	  <minRange>5.9</minRange>
-      <warmupTime>0.5</warmupTime>
+      <warmupTime>3.5</warmupTime>
       <soundCast>Shot_IncendiaryLauncher</soundCast>
 	  <targetParams>
         <canTargetLocations>true</canTargetLocations>
-		<canTargetPawns>true</canTargetPawns>
+		<canTargetPawns>false</canTargetPawns>
       </targetParams>
     </verbProperties>
     <comps>
@@ -56,11 +56,11 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>45</range>
 	  <minRange>5.9</minRange>
-      <warmupTime>0.5</warmupTime>
+      <warmupTime>3.5</warmupTime>
       <soundCast>Shot_IncendiaryLauncher</soundCast>
 	  <targetParams>
         <canTargetLocations>true</canTargetLocations>
-		<canTargetPawns>true</canTargetPawns>
+		<canTargetPawns>false</canTargetPawns>
       </targetParams>
     </verbProperties>
     <comps>
