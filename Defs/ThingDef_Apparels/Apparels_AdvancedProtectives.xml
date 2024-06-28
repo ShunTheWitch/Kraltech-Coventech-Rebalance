@@ -7,7 +7,7 @@
     <defName>Apparel_MechHunterChestplate</defName>
     <label>mech hunter chestplate</label>
 	<techLevel>Spacer</techLevel>
-    <description>Military-grade anti-ballistic combat chestplate, that provides ballistic protection from the torso, and a slight increase in movespeed. The armor also possess superior heat resistance, making it a viable armor against enemies with incendiary weapons.</description>
+    <description>Military-grade anti-ballistic combat chestplate, that provides ballistic protection from the torso. The armor also possess superior heat resistance, making it a viable armor against enemies with incendiary weapons.</description>
     <graphicData>
       <texPath>Things/ArmorsAndClothes/Kral's_Protectives/CombatChestPlate/MechHunterChestPlate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -28,7 +28,7 @@
     </recipeMaker>
 	<costList>
       <ComponentSpacer>1</ComponentSpacer>
-      <SuperSteel>50</SuperSteel>
+      <SuperSteel>150</SuperSteel>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
@@ -39,15 +39,15 @@
       <WorkToMake>5000</WorkToMake>
       <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.55</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.35</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.7</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>10</Insulation_Heat>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.50</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
-      <MoveSpeed>0.7</MoveSpeed>
+      <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -93,7 +93,7 @@
     </recipeMaker>
 	<costList>
       <ComponentSpacer>2</ComponentSpacer>
-	  <SuperSteelThread>50</SuperSteelThread>
+	  <SuperSteelThread>80</SuperSteelThread>
       <SuperSteel>30</SuperSteel>
     </costList>
     <thingCategories>
@@ -105,16 +105,16 @@
       <WorkToMake>10000</WorkToMake>
       <Mass>0.45</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-      <ArmorRating_Heat>2.0</ArmorRating_Heat>
-      <Insulation_Cold>30</Insulation_Cold>
-      <Insulation_Heat>30</Insulation_Heat>
+      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
 	<equippedStatOffsets>	
-      <MoveSpeed>2.0</MoveSpeed>
-	  <Comfort>1.5</Comfort>
+      <MoveSpeed>0.5</MoveSpeed>
+	  <Comfort>1</Comfort>
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -177,19 +177,19 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>1500</MarketValue>
       <WorkToMake>10000</WorkToMake>
       <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>2.20</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>14</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
-      <MoveSpeed>-0.3</MoveSpeed>	
+      <MoveSpeed>-0.2</MoveSpeed>	
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -248,17 +248,17 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>950</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>1.2</Mass>
+      <MaxHitPoints>700</MaxHitPoints>
+      <MarketValue>900</MarketValue>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.7</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
       <Insulation_Cold>15</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
       <MoveSpeed>-0.1</MoveSpeed>	
@@ -317,20 +317,17 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>950</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>1.2</Mass>
+      <MarketValue>900</MarketValue>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.7</ArmorRating_Heat>
-      <Insulation_Cold>15</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
-	<equippedStatOffsets>
-      <MoveSpeed>-0.1</MoveSpeed>	
-    </equippedStatOffsets>
 	<comps>	  
     </comps>
     <apparel>
@@ -385,20 +382,17 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>950</MarketValue>
-      <WorkToMake>7000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <WorkToMake>10000</WorkToMake>
       <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.9</ArmorRating_Heat>
-      <Insulation_Cold>25</Insulation_Cold>
-      <Insulation_Heat>25</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
-	<equippedStatOffsets>
-      <MoveSpeed>-0.1</MoveSpeed>	
-    </equippedStatOffsets>
 	<comps>	  
     </comps>
     <apparel>
@@ -455,22 +449,22 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <MarketValue>900</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>2.5</Mass>
+      <MaxHitPoints>400</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.7</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>10</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
+      <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
       <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>	
-      <RangedCooldownFactor>-0.2</RangedCooldownFactor>
-	  <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+	  <AimingDelayFactor>-0.1</AimingDelayFactor>
 	  <HeatNullNaniteResistance>0.80</HeatNullNaniteResistance>
 	  <HeatNullNaniteEnvironmentResistance>0.80</HeatNullNaniteEnvironmentResistance>
 	  <ColdNullNaniteResistance>0.80</ColdNullNaniteResistance>
@@ -539,32 +533,21 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <MarketValue>900</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>2.5</Mass>
+      <MaxHitPoints>400</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>1.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>2.0</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>10</Insulation_Heat>
-      <EquipDelay>8</EquipDelay>
+      <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets>	
       <RangedCooldownFactor>-0.2</RangedCooldownFactor>
 	  <AimingDelayFactor>-0.2</AimingDelayFactor>
-	  <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
-	  <HeatNullNaniteResistance>0.80</HeatNullNaniteResistance>
-	  <HeatNullNaniteEnvironmentResistance>0.80</HeatNullNaniteEnvironmentResistance>
-	  <ColdNullNaniteResistance>0.80</ColdNullNaniteResistance>
-	  <ColdNullNaniteEnvironmentResistance>0.80</ColdNullNaniteEnvironmentResistance>
-	  <RadiationResistance>0.80</RadiationResistance>
-	  <RadiationEnvironmentResistance>0.80</RadiationEnvironmentResistance>
-	  <AntiOrgToxinResistance>0.80</AntiOrgToxinResistance>
-	  <AntiOrgToxinEnvironmentResistance>0.80</AntiOrgToxinEnvironmentResistance>
-	  <RageVirusResistance>0.80</RageVirusResistance>
-	  <RageVirusEnvironmentResistance>0.80</RageVirusEnvironmentResistance>
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -617,36 +600,36 @@
     </recipeMaker>
 	<costList>
       <ComponentSpacer>2</ComponentSpacer>
-      <SuperSteel>110</SuperSteel>
+      <SuperSteel>150</SuperSteel>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <MarketValue>1000</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>2.5</Mass>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.10</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.75</ArmorRating_Blunt>
-      <ArmorRating_Heat>2.50</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
-      <EquipDelay>8</EquipDelay>
+      <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets>	
-      <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
-	  <HeatNullNaniteResistance>0.80</HeatNullNaniteResistance>
-	  <HeatNullNaniteEnvironmentResistance>0.80</HeatNullNaniteEnvironmentResistance>
-	  <ColdNullNaniteResistance>0.80</ColdNullNaniteResistance>
-	  <ColdNullNaniteEnvironmentResistance>0.80</ColdNullNaniteEnvironmentResistance>
-	  <RadiationResistance>0.80</RadiationResistance>
-	  <RadiationEnvironmentResistance>0.80</RadiationEnvironmentResistance>
-	  <AntiOrgToxinResistance>0.80</AntiOrgToxinResistance>
-	  <AntiOrgToxinEnvironmentResistance>0.80</AntiOrgToxinEnvironmentResistance>
-	  <RageVirusResistance>0.80</RageVirusResistance>
-	  <RageVirusEnvironmentResistance>0.80</RageVirusEnvironmentResistance>
+      <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+	  <HeatNullNaniteResistance>1.0</HeatNullNaniteResistance>
+	  <HeatNullNaniteEnvironmentResistance>1.0</HeatNullNaniteEnvironmentResistance>
+	  <ColdNullNaniteResistance>1.0</ColdNullNaniteResistance>
+	  <ColdNullNaniteEnvironmentResistance>1.0</ColdNullNaniteEnvironmentResistance>
+	  <RadiationResistance>1.0</RadiationResistance>
+	  <RadiationEnvironmentResistance>1.0</RadiationEnvironmentResistance>
+	  <AntiOrgToxinResistance>1.0</AntiOrgToxinResistance>
+	  <AntiOrgToxinEnvironmentResistance>1.0</AntiOrgToxinEnvironmentResistance>
+	  <RageVirusResistance>1.0</RageVirusResistance>
+	  <RageVirusEnvironmentResistance>1.0</RageVirusEnvironmentResistance>
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -678,7 +661,7 @@
   <ThingDef ParentName="ApparelBase">
     <defName>Apparel_ShieldBeltStrong</defName>
     <label>shield belt mk.45</label>
-    <description>A powerful shield belt that emits a high frequency shield bubble, along with an increadible energy regeneration speed, immunity to EMP, and an increadible recovery rate after shield break.</description>
+    <description>A powerful shield belt that emits a high frequency shield bubble, along with an increadible energy regeneration speed, immunity to EMP, and an incredible recovery rate after shield break.</description>
     <thingClass>Kraltech_Industries.Apparel_ShieldBubble</thingClass>
     <graphicData>
       <texPath>Things/ArmorsAndClothes/Kral's_Protectives/Utilities/ShieldBeltMK45</texPath>
@@ -688,11 +671,11 @@
     <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>3</Mass>
-	  <MarketValue>4000</MarketValue>
-      <WorkToMake>14000</WorkToMake>
+	  <MarketValue>3000</MarketValue>
+      <WorkToMake>10000</WorkToMake>
       <Flammability>0</Flammability>
-      <EnergyShieldRechargeRate>1.5</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>4.5</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>2.25</EnergyShieldEnergyMax>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <thingSetMakerTags>

@@ -20,7 +20,7 @@
 	  <researchPrerequisite>EnforcerProtectiveGears</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 	  <skillRequirements>
-        <Crafting>15</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>KraltechFabBench</li>
@@ -28,26 +28,26 @@
     </recipeMaker>
 	<costList>
       <ComponentSpacer>3</ComponentSpacer>
-      <SuperSteel>150</SuperSteel>
+      <SuperSteel>250</SuperSteel>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1700</MaxHitPoints>
-      <MarketValue>5500</MarketValue>
+      <MaxHitPoints>700</MaxHitPoints>
+      <MarketValue>2500</MarketValue>
       <WorkToMake>5000</WorkToMake>
-      <Mass>0.75</Mass>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.55</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.35</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.7</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>20</Insulation_Heat>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
-      <MoveSpeed>1.7</MoveSpeed>
+      <MoveSpeed>-0.5</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -85,7 +85,7 @@
 	  <researchPrerequisite>EnforcerProtectiveGears</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 	  <skillRequirements>
-        <Crafting>15</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>KraltechFabBench</li>
@@ -178,21 +178,21 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1750</MaxHitPoints>
-      <MarketValue>7500</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>2500</MarketValue>
       <WorkToMake>10000</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>0.45</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.9</ArmorRating_Heat>
-      <Insulation_Cold>30</Insulation_Cold>
-      <Insulation_Heat>30</Insulation_Heat>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
 	<equippedStatOffsets>	
-      <MoveSpeed>2.0</MoveSpeed>
-	  <Comfort>1.5</Comfort>
+      <MoveSpeed>0.5</MoveSpeed>
+	  <Comfort>1</Comfort>
     </equippedStatOffsets>
 	<comps>
       <li Class="CompProperties_CauseHediff_Apparel">
@@ -251,26 +251,25 @@
       </recipeUsers>
     </recipeMaker>
 	<costList>
-	  <SuperSteelThread>95</SuperSteelThread>
-	  <ComponentSpacer>2</ComponentSpacer>
-      <Cloth>75</Cloth>
+	  <SuperSteelThread>150</SuperSteelThread>
+	  <ComponentSpacer>4</ComponentSpacer>
+	  <Cloth>250</Cloth>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-	  <MarketValue>4750</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>0.20</Mass>
-	  <Beauty>2</Beauty>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>1500</MarketValue>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.9</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.8</ArmorRating_Heat>
-      <Insulation_Cold>125</Insulation_Cold>
-      <Insulation_Heat>125</Insulation_Heat>
-      <EquipDelay>9</EquipDelay>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>50</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
       <Comfort>25</Comfort>
@@ -333,17 +332,17 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
-      <MarketValue>8000</MarketValue>
+      <MaxHitPoints>400</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
       <WorkToMake>5000</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>1.7</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.75</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.50</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
-      <EquipDelay>8</EquipDelay>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
     </statBases>
 	<equippedStatOffsets>	
       <ToxicEnvironmentResistance>2.0</ToxicEnvironmentResistance>
@@ -494,20 +493,20 @@
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-      <MarketValue>1450</MarketValue>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>1.2</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>1500</MarketValue>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.7</ArmorRating_Heat>
-      <Insulation_Cold>15</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
+      <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
-      <MoveSpeed>1.5</MoveSpeed>	
+      <MoveSpeed>0.5</MoveSpeed>	
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -555,28 +554,28 @@
       </recipeUsers>
     </recipeMaker>
 	<costList>
-	  <SuperSteelThread>35</SuperSteelThread>
-      <SuperSteel>25</SuperSteel>
+	  <SuperSteelThread>65</SuperSteelThread>
+      <SuperSteel>55</SuperSteel>
 	  <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-      <MarketValue>1950</MarketValue>
-      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
+      <WorkToMake>10000</WorkToMake>
       <Mass>2.5</Mass>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.9</ArmorRating_Heat>
-      <Insulation_Cold>25</Insulation_Cold>
-      <Insulation_Heat>25</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
+      <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.5</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
-      <MoveSpeed>1.5</MoveSpeed>	
+      <MoveSpeed>0.5</MoveSpeed>	
     </equippedStatOffsets>
 	<comps>	  
     </comps>
@@ -615,14 +614,11 @@
     <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>3</Mass>
-	  <MarketValue>8500</MarketValue>
-      <WorkToMake>14000</WorkToMake>
+	  <MarketValue>4500</MarketValue>
+      <WorkToMake>10000</WorkToMake>
       <Flammability>0</Flammability>
-	  <ArmorRating_Sharp>2.7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>4.9</ArmorRating_Heat>
-      <EnergyShieldRechargeRate>2.0</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>10.5</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>1.5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>4.5</EnergyShieldEnergyMax>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <thingSetMakerTags>
@@ -630,9 +626,9 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <costList>
-      <ComponentSpacer>10</ComponentSpacer>
+      <ComponentSpacer>6</ComponentSpacer>
       <SuperSteel>75</SuperSteel>
-      <MechFussionCore>25</MechFussionCore>
+      <MechFussionCore>15</MechFussionCore>
     </costList>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
@@ -645,7 +641,7 @@
         <li>KraltechFabBench</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>17</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <displayPriority>300</displayPriority>
     </recipeMaker>
