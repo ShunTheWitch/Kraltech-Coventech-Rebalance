@@ -30,7 +30,7 @@
     </statBases>
 	<equippedStatOffsets>	
 	  <MoveSpeed>1.5</MoveSpeed>
-	  <SocialImpact>0.7</SocialImpact>
+	  <SocialImpact>0.5</SocialImpact>
     </equippedStatOffsets>
     <allowedArchonexusCount>1</allowedArchonexusCount>
     <apparel>
@@ -76,11 +76,11 @@
       <Mass>1.25</Mass>
 	  <Beauty>5</Beauty>
       <Flammability>0</Flammability>
-      <ArmorRating_Sharp>2.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>5.5</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
       <Insulation_Cold>40</Insulation_Cold>
-      <Insulation_Heat>40</Insulation_Heat>
+      <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>14</EquipDelay>
     </statBases>
 	<equippedStatOffsets> 
@@ -133,7 +133,7 @@
       <Mass>0.15</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
       <ArmorRating_Heat>0.3</ArmorRating_Heat>
       <Insulation_Cold>5</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
@@ -143,7 +143,7 @@
 	  <RangedCooldownFactor>-0.5</RangedCooldownFactor>
 	  <AimingDelayFactor>-0.5</AimingDelayFactor>
 	  <MechBandwidth>10</MechBandwidth>
-	  <GlobalLearningFactor>1.5</GlobalLearningFactor>
+	  <GlobalLearningFactor>1.0</GlobalLearningFactor>
 	  <ResearchSpeed>1.0</ResearchSpeed>
     </equippedStatOffsets>
 	<comps>	  
