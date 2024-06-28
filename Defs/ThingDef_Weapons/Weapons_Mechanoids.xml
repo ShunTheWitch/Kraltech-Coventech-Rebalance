@@ -33,9 +33,7 @@
       <Mass>4.5</Mass>
     </statBases>
 	<equippedStatOffsets>	
-	  <IncomingDamageFactor>-0.02</IncomingDamageFactor>
-	  <MeleeDodgeChance>0.3</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-0.2</MeleeWeapon_CooldownMultiplier>
+
     </equippedStatOffsets>
     <weaponTags>
       <li>MechanoidMonoSword</li>
@@ -47,7 +45,7 @@
           <li>Cut</li>
         </capacities>
         <power>25</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>2.5</cooldownTime>
 		<armorPenetration>1.2</armorPenetration>
       </li>
 	  <li>
@@ -56,7 +54,7 @@
           <li>Stab</li>
         </capacities>
         <power>30</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>2.5</cooldownTime>
 		<armorPenetration>1.5</armorPenetration>
       </li>
 	  <li>
@@ -99,9 +97,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>80</power>
-        <cooldownTime>1.7</cooldownTime>
-		<armorPenetration>1.9</armorPenetration>		
+        <power>40</power>
+        <cooldownTime>3.7</cooldownTime>
+		<armorPenetration>0.9</armorPenetration>		
 		<extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -115,7 +113,7 @@
           <li>Blunt</li>
         </capacities>
         <power>25</power>
-        <cooldownTime>1.7</cooldownTime>
+        <cooldownTime>3.7</cooldownTime>
 		<armorPenetration>1.5</armorPenetration>
 		<extraMeleeDamages>
           <li>
@@ -130,7 +128,7 @@
           <li>Blunt</li>
         </capacities>
         <power>15</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -165,7 +163,7 @@
           <li>Cut</li>
         </capacities>
         <power>50</power>
-        <cooldownTime>1.7</cooldownTime>
+        <cooldownTime>2.7</cooldownTime>
 		<armorPenetration>3</armorPenetration>		
 		<extraMeleeDamages>
         </extraMeleeDamages>
@@ -176,7 +174,7 @@
           <li>Blunt</li>
         </capacities>
         <power>20</power>
-        <cooldownTime>1.7</cooldownTime>
+        <cooldownTime>2.7</cooldownTime>
 		<armorPenetration>1.5</armorPenetration>
 		<extraMeleeDamages>
         </extraMeleeDamages>
@@ -222,7 +220,7 @@
         </capacities>
         <power>35</power>
         <cooldownTime>0.5</cooldownTime>
-		<armorPenetration>1.5</armorPenetration>		
+		<armorPenetration>0.5</armorPenetration>		
 		<extraMeleeDamages>
         </extraMeleeDamages>
       </li>
@@ -232,8 +230,8 @@
           <li>HorizontalSlash</li>
         </capacities>
         <power>40</power>
-        <cooldownTime>0.5</cooldownTime>
-		<armorPenetration>1.5</armorPenetration>
+        <cooldownTime>3.0</cooldownTime>
+		<armorPenetration>0.5</armorPenetration>
 		<extraMeleeDamages>
         </extraMeleeDamages>
       </li>
@@ -243,8 +241,8 @@
           <li>RockBreakerSlash</li>
         </capacities>
         <power>55</power>
-        <cooldownTime>0.5</cooldownTime>
-		<armorPenetration>1.5</armorPenetration>
+        <cooldownTime>2.5</cooldownTime>
+		<armorPenetration>0.5</armorPenetration>
 		<extraMeleeDamages>
 		  <li>
             <def>Stun</def>
@@ -376,9 +374,9 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>75</power>
-        <cooldownTime>1.7</cooldownTime>
-		<armorPenetration>7.0</armorPenetration>		
+        <power>35</power>
+        <cooldownTime>3.7</cooldownTime>
+		<armorPenetration>1.0</armorPenetration>		
 		<extraMeleeDamages>
 		  <li>
             <def>BulletHealthBlight</def>
@@ -386,7 +384,7 @@
           </li>
 		  <li>
             <def>ArmorBreakerBullet</def>
-            <amount>55</amount>
+            <amount>35</amount>
           </li>
         </extraMeleeDamages>
       </li>
@@ -396,7 +394,7 @@
           <li>Blunt</li>
         </capacities>
         <power>20</power>
-        <cooldownTime>1.7</cooldownTime>
+        <cooldownTime>3.7</cooldownTime>
 		<armorPenetration>1.5</armorPenetration>
 		<extraMeleeDamages>
         </extraMeleeDamages>
@@ -406,7 +404,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>10</power>
         <cooldownTime>1.0</cooldownTime>
       </li>
     </tools>
@@ -434,7 +432,8 @@
 	  <MeleeWeapon_CooldownMultiplier>-0.55</MeleeWeapon_CooldownMultiplier>
     </equippedStatOffsets>
     <weaponTags>
-      <li>MechanoidStormLance</li>
+	<li>MechanoidStormLance</li>
+	<li>MechanoidStormLanceOne</li>
     </weaponTags>
 	<verbs>
       <li>
@@ -442,7 +441,7 @@
         <verbClass>Verb_LaunchProjectileStatic</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <onlyManualCast>True</onlyManualCast>
-        <range>65.9</range>
+        <range>35.9</range>
         <minRange>3.9</minRange>
         <warmupTime>4</warmupTime>
         <soundCast>Shot_Doom</soundCast>
@@ -469,9 +468,9 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>250</power>
-        <cooldownTime>1.7</cooldownTime>
-		<armorPenetration>7.0</armorPenetration>		
+        <power>60</power>
+        <cooldownTime>4.7</cooldownTime>
+		<armorPenetration>2.0</armorPenetration>		
 		<extraMeleeDamages>
         </extraMeleeDamages>
       </li>
@@ -532,8 +531,8 @@
 		<thingClass>Kraltech_Industries.Projectile_MjolnirThunder</thingClass>
 		<projectile>
 			<damageDef>MjolnirThunderStrike</damageDef>
-			<damageAmountBase>500</damageAmountBase>
-			<explosionRadius>4.5</explosionRadius>
+			<damageAmountBase>10</damageAmountBase>
+			<explosionRadius>2.5</explosionRadius>
 			<explosionDelay>10</explosionDelay>
 			<speed>41</speed>
 			<flyOverhead>true</flyOverhead>
@@ -544,64 +543,6 @@
 		</projectile>
 	</ThingDef>
 	
-	<ThingDef ParentName="MechanoidCQC">
-    <defName>Melee_MechStormLanceOne</defName>
-    <label>mech storm lance</label>
-    <description>A gigantic lance wielded solely by mjolnir. The storm lance has a slightly higher armor penetration than the mech lance, which deals a deadly amount of piercing damage against the enemy.</description>
-    <techLevel>Spacer</techLevel>
-    <graphicData>
-      <texPath>Things/Weapons/MechWeapons/MechStormLance</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>4.0, 4.0</drawSize>
-    </graphicData>
-	<equippedAngleOffset>45</equippedAngleOffset>
-    <statBases>
-      <MarketValue>2000</MarketValue>
-      <Mass>120</Mass>
-    </statBases>
-	<meleeHitSound>Strike_MechBattleAxe</meleeHitSound>
-	<equippedStatOffsets>	
-	  <IncomingDamageFactor>-0.05</IncomingDamageFactor>
-	  <MeleeDodgeChance>5.5</MeleeDodgeChance>
-	  <MeleeWeapon_CooldownMultiplier>-0.55</MeleeWeapon_CooldownMultiplier>
-    </equippedStatOffsets>
-    <weaponTags>
-      <li>MechanoidStormLanceOne</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>lance point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>250</power>
-        <cooldownTime>1.7</cooldownTime>
-		<armorPenetration>7.10</armorPenetration>		
-		<extraMeleeDamages>
-        </extraMeleeDamages>
-      </li>
-	  <li>
-        <label>edge</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.7</cooldownTime>
-		<armorPenetration>1.5</armorPenetration>
-		<extraMeleeDamages>
-        </extraMeleeDamages>
-      </li>
-	  <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>1.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  
   <!-- Mech ranged weapons -->
   
   <ThingDef ParentName="BaseGun">
@@ -621,10 +562,10 @@
     <statBases>
       <MarketValue>1400</MarketValue>
       <Mass>20</Mass>
-      <AccuracyTouch>1</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>1</AccuracyMedium>
-      <AccuracyLong>1</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
@@ -635,7 +576,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargedBlast</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
+        <warmupTime>10.0</warmupTime>
         <range>35.9</range>
         <soundCast>Shot_HellsphereCannonGun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -703,10 +644,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>2.0</AccuracyTouch>
-      <AccuracyShort>2.0</AccuracyShort>
-      <AccuracyMedium>2.0</AccuracyMedium>
-      <AccuracyLong>2.0</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -718,7 +659,7 @@
 		<ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
         <ai_RangedAlawaysShootGroundBelowTarget>true</ai_RangedAlawaysShootGroundBelowTarget>
         <defaultProjectile>Bullet_MechChaingun</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>3</warmupTime>
         <range>50.9</range>
 		<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>30</burstShotCount>
@@ -758,15 +699,10 @@
     <projectile>
       <damageDef>BleedBullets</damageDef>
       <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>3</armorPenetrationBase>
+	  <armorPenetrationBase>0.1</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
 	  <extraDamages>
-       <li>
-        <amount>9</amount>
-        <chance>1.0</chance>
-        <def>ShockBullets</def>
-       </li>
       </extraDamages>
     </projectile>
   </ThingDef>
@@ -787,10 +723,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>2.0</AccuracyTouch>
-      <AccuracyShort>2.0</AccuracyShort>
-      <AccuracyMedium>2.0</AccuracyMedium>
-      <AccuracyLong>2.0</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -841,13 +777,13 @@
     </graphicData>
     <projectile>
       <damageDef>PlagueBullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>3</armorPenetrationBase>
+      <damageAmountBase>3</damageAmountBase>
+	  <armorPenetrationBase>0.1</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
 	  <extraDamages>
        <li>
-        <amount>25</amount>
+        <amount>1</amount>
         <chance>1.0</chance>
         <def>BlightBullets</def>
        </li>
@@ -858,7 +794,7 @@
   <ThingDef ParentName="BaseGun">
     <defName>Gun_MechStubChaingun</defName>
     <label>mech stub chaingun</label>
-    <description>An alter version of the mech chaingun that deals more damage and inflict shock pain, in exchange of reduced range, reduced armor penetration, and reduced barrel length.</description>
+    <description>An alter version of the mech chaingun that deals more damage, in exchange of reduced range, reduced armor penetration, and reduced barrel length.</description>
     <graphicData>
       <texPath>Things/Weapons/MechWeapons/MechChaingunStub</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -871,10 +807,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>2.0</AccuracyTouch>
-      <AccuracyShort>2.0</AccuracyShort>
-      <AccuracyMedium>2.0</AccuracyMedium>
-      <AccuracyLong>2.0</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -884,8 +820,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MechStubChaingun</defaultProjectile>
-        <warmupTime>1</warmupTime>
-        <range>35.9</range>
+        <warmupTime>3</warmupTime>
+        <range>25.9</range>
 		<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>30</burstShotCount>
 		<minRange>4.9</minRange>
@@ -924,15 +860,10 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>17</damageAmountBase>
-	  <armorPenetrationBase>2.5</armorPenetrationBase>
+	  <armorPenetrationBase>0.5</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
 	  <extraDamages>
-       <li>
-        <amount>9</amount>
-        <chance>1.0</chance>
-        <def>ShockBullets</def>
-       </li>
       </extraDamages>
     </projectile>
   </ThingDef>
@@ -954,11 +885,11 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
     </equippedStatOffsets>
@@ -968,9 +899,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MechLaserBlaster</defaultProjectile>
         <warmupTime>1</warmupTime>
-        <range>50.9</range>
+        <range>30.9</range>
 		<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <burstShotCount>25</burstShotCount>
+        <burstShotCount>5</burstShotCount>
 		<minRange>4.9</minRange>
         <soundCast>Shot_LaserBlaster</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1005,13 +936,13 @@
     </graphicData>
     <projectile>
       <damageDef>Inflamable</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>17</damageAmountBase>
 	  <armorPenetrationBase>3</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
       <speed>120</speed>
 	  <extraDamages>
        <li>
-        <amount>9</amount>
+        <amount>1</amount>
         <chance>1.0</chance>
         <def>Flame</def>
        </li>
@@ -1021,8 +952,8 @@
   
   <ThingDef ParentName="BaseGun">
     <defName>Gun_TriShotChargedLance</defName>
-    <label>tri-shot charge lance</label>
-    <description>An advanced version of the traditional charge lance that fires three consecutive charge rods, dealing triple the damage than usual.</description>
+    <label>dual-shot charge lance</label>
+    <description>An advanced version of the traditional charge lance that fires two consecutive charge rods, dealing nearly triple the damage than usual.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/MechWeapons/MechTri-ShotChargedRifle</texPath>
@@ -1036,10 +967,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.34</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -1052,7 +983,7 @@
         <warmupTime>1</warmupTime>
         <range>35.9</range>
 		<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>2</burstShotCount>
 		<minRange>4.9</minRange>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1088,14 +1019,14 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>  
-	  <armorPenetrationBase>1.5</armorPenetrationBase>
+      <damageAmountBase>45</damageAmountBase>  
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
 	  <extraDamages>
        <li>
-        <amount>9</amount>
-        <chance>0.5</chance>
+        <amount>1</amount>
+        <chance>0.1</chance>
         <def>ShockBullets</def>
        </li>
       </extraDamages>
@@ -1119,10 +1050,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.10</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -1133,7 +1064,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SniperLance</defaultProjectile>
         <warmupTime>1</warmupTime>
-        <range>55.9</range>
+        <range>60.9</range>
 		<minRange>4.9</minRange>
         <soundCast>Shot_MechChargedSniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1147,8 +1078,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <power>1</power>
+        <cooldownTime>3</cooldownTime>
       </li>
     </tools>
 	<comps>
@@ -1169,8 +1100,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>80</damageAmountBase>
-	  <armorPenetrationBase>2.5</armorPenetrationBase>
+      <damageAmountBase>20</damageAmountBase>
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
     </projectile>
@@ -1193,10 +1124,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
     </statBases>
 	<equippedStatOffsets> 
     </equippedStatOffsets>
@@ -1208,7 +1139,7 @@
         <warmupTime>1</warmupTime>
         <range>35.9</range>
 		<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <burstShotCount>20</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Shot_AssaultCharger</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -1221,7 +1152,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
+        <power>2</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -1243,8 +1174,8 @@
     </graphicData>
     <projectile>
       <damageDef>VitalityDrainBullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-	  <armorPenetrationBase>1.5</armorPenetrationBase>
+      <damageAmountBase>8</damageAmountBase>
+	  <armorPenetrationBase>0.5</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
     </projectile>
@@ -1265,10 +1196,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.2</AccuracyShort>
+      <AccuracyMedium>0.2</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
       <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -1320,7 +1251,7 @@
     <projectile>
       <damageDef>PsiExplosion</damageDef>
 	  <flyOverhead>true</flyOverhead>
-      <explosionRadius>10.9</explosionRadius>
+      <explosionRadius>4.9</explosionRadius>
       <speed>1000</speed>
     </projectile>
   </ThingDef>
@@ -1342,10 +1273,10 @@
     <statBases>
       <MarketValue>6000</MarketValue>
       <Mass>80</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.44</AccuracyLong>
       <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
 	<equippedStatOffsets> 
@@ -1393,14 +1324,9 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>60</damageAmountBase>  
-	  <armorPenetrationBase>3</armorPenetrationBase>
+	  <armorPenetrationBase>1</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
 	  <extraDamages>
-       <li>
-        <amount>45</amount>
-        <chance>0.01</chance>
-        <def>DeathBullet</def>
-       </li>
       </extraDamages>
       <speed>120</speed>
     </projectile>
@@ -1423,11 +1349,11 @@
       <statBases>
         <MarketValue>6000</MarketValue>
         <Mass>250</Mass>
-        <AccuracyTouch>2.0</AccuracyTouch>
-        <AccuracyShort>2.0</AccuracyShort>
-        <AccuracyMedium>2.0</AccuracyMedium>
-        <AccuracyLong>2.0</AccuracyLong>
-        <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.2</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+        <RangedWeapon_Cooldown>10.0</RangedWeapon_Cooldown>
       </statBases>
 	  <equippedStatOffsets> 
       </equippedStatOffsets>
@@ -1439,7 +1365,7 @@
           <warmupTime>1</warmupTime>
           <range>50.9</range>
 		  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-          <burstShotCount>70</burstShotCount>
+          <burstShotCount>4</burstShotCount>
 		  <minRange>4.9</minRange>
           <soundCast>Shot_HeavyLaser</soundCast>
           <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1475,16 +1401,11 @@
       </graphicData>
       <projectile>
         <damageDef>ArmorBreakerBullet</damageDef>
-        <damageAmountBase>50</damageAmountBase>
-	    <armorPenetrationBase>5</armorPenetrationBase>
+        <damageAmountBase>40</damageAmountBase>
+	    <armorPenetrationBase>0.2</armorPenetrationBase>
         <stoppingPower>1</stoppingPower>
         <speed>180</speed>
 		<extraDamages>
-         <li>
-          <amount>45</amount>
-          <chance>0.2</chance>
-          <def>DeathBullet</def>
-         </li>
         </extraDamages>
       </projectile>
     </ThingDef>
@@ -1492,7 +1413,7 @@
 	<ThingDef ParentName="LightMechanoidGunRanged">
     <defName>Gun_MiniShotgunAdvanced</defName>
     <label>mini-shotgun MK2</label>
-    <description>An upgraded version of the mini shotgun, now with a cylindrical drum which allows the gun to fire 12 rounds of shotgun pellets with a decent stopping power of 250 %.</description>
+    <description>An upgraded version of the mini shotgun, now with a cylindrical drum which allows the gun to fire 4 rounds of shotgun pellets with a decent stopping power of 250 %.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/MechWeapons/MechMiniShotgunMK2</texPath>
@@ -1501,27 +1422,28 @@
     <statBases>
       <MarketValue>1000</MarketValue>
       <Mass>1.5</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>1.00</AccuracyShort>
-      <AccuracyMedium>1.00</AccuracyMedium>
-      <AccuracyLong>1.00</AccuracyLong>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>MK2MechanoidGunShortRange</li>
     </weaponTags>
     <verbs>
-      <li Class="Kraltech_Industries.Verb_Properties_AccurateShot">
-        <verbClass>Kraltech_Industries.Verb_Shoot_AccurateShot</verbClass>
+ 	<li Class="Shotgunz.Verb_Properties_Shotgunz">
+        <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MiniShotgunAdvanced</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>25.9</range>
-        <burstShotCount>12</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
+	<pellets>10</pellets>
       </li>
     </verbs>
   </ThingDef>
@@ -1535,9 +1457,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>16</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <stoppingPower>0.9</stoppingPower>
-      <armorPenetrationBase>0.85</armorPenetrationBase>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
       <speed>150</speed>
     </projectile>
   </ThingDef>
