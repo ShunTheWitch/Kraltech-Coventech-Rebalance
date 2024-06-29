@@ -36,7 +36,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SuperSteelThread>3</SuperSteelThread>
+      <SuperSteelThread>5</SuperSteelThread>
     </products>
     <researchPrerequisite>KralTechFabrication</researchPrerequisite>
     <skillRequirements>
@@ -81,7 +81,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SuperSteelThread>55</SuperSteelThread>
+      <SuperSteelThread>75</SuperSteelThread>
     </products>
     <researchPrerequisite>KralTechFabrication</researchPrerequisite>
     <skillRequirements>
@@ -134,7 +134,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SuperSteel>3</SuperSteel>
+      <SuperSteel>5</SuperSteel>
     </products>
     <researchPrerequisite>KralTechFabrication</researchPrerequisite>
     <skillRequirements>
@@ -187,7 +187,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SuperSteel>55</SuperSteel>
+      <SuperSteel>75</SuperSteel>
     </products>
     <researchPrerequisite>KralTechFabrication</researchPrerequisite>
     <skillRequirements>
