@@ -18,11 +18,11 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -38,8 +38,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>50</SuperSteel>
-	  <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
+      <SuperSteel>75</SuperSteel>
+	  <AdvancedGunPartsKit>3</AdvancedGunPartsKit>
     </costList>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -55,8 +55,8 @@
         <defaultProjectile>Bullet_BurnRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>25</range>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Shot_BurnRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
@@ -93,7 +93,7 @@
     </graphicData>
     <projectile>
       <damageDef>FlameShot</damageDef>
-	  <damageAmountBase>15</damageAmountBase>
+	  <damageAmountBase>11</damageAmountBase>
       <speed>100</speed>
     </projectile>
   </ThingDef> 
@@ -113,11 +113,11 @@
 	  <MarketValue>1500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>5</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.60</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -133,8 +133,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>40</SuperSteel>
-	  <AdvancedGunPartsKit>1</AdvancedGunPartsKit>
+      <SuperSteel>60</SuperSteel>
+	  <AdvancedGunPartsKit>2</AdvancedGunPartsKit>
     </costList>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -149,9 +149,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BurnSMG</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>15</range>
+        <range>18</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <burstShotCount>25</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <soundCast>Shot_BurnRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
@@ -210,11 +210,11 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>20</Mass>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>0.50</AccuracyShort>
-      <AccuracyMedium>0.70</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -230,8 +230,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <SuperSteel>80</SuperSteel>
-	  <AdvancedGunPartsKit>1</AdvancedGunPartsKit>
+      <SuperSteel>95</SuperSteel>
+	  <AdvancedGunPartsKit>4</AdvancedGunPartsKit>
     </costList>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -245,8 +245,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BurnSniperRifle</defaultProjectile>
-        <warmupTime>2.0</warmupTime>
-        <range>50</range>
+        <warmupTime>3.0</warmupTime>
+        <range>38</range>
         <soundCast>Shot_BurnSniperRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
@@ -283,7 +283,7 @@
     </graphicData>
     <projectile>
       <damageDef>FlameShot</damageDef>
-	  <damageAmountBase>50</damageAmountBase>
+	  <damageAmountBase>25</damageAmountBase>
       <speed>100</speed>
     </projectile>
   </ThingDef>  
@@ -302,11 +302,11 @@
 	  <MarketValue>2500</MarketValue>
       <WorkToMake>45000</WorkToMake>
       <Mass>15</Mass>
-      <AccuracyTouch>0.60</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -327,35 +327,16 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_ShootBeam</verbClass>
+        <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>1.0</warmupTime>
-        <range>24.9</range>
-        <minRange>3.9</minRange>
-        <beamFullWidthRange>6.9</beamFullWidthRange>
-        <burstShotCount>5</burstShotCount>
-        <beamWidth>6</beamWidth>
-        <ticksBetweenBurstShots>22</ticksBetweenBurstShots>
-        <beamDamageDef>PlasmaBeam</beamDamageDef>
+        <defaultProjectile>Kral_Heatbeam</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>25</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ExtinctionRay_Shooting_Resolve</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <soundCastBeam>Shot_BurnLaser</soundCastBeam>
-        <beamGroundFleckDef>Fleck_BeamMolten</beamGroundFleckDef>
-        <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-        <beamMaxDeviation>0</beamMaxDeviation>
-        <beamCurvature>0</beamCurvature>
-        <beamMoteDef>Mote_PlasmaBeamBase</beamMoteDef>
-        <beamEndEffecterDef>PlasmaBeamz_End</beamEndEffecterDef>
-        <beamChanceToStartFire>0.85</beamChanceToStartFire>
-        <beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-        <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
-        <beamLineFleckDef>Fleck_PlasmaBeamSpark</beamLineFleckDef>
-        <beamStartOffset>0</beamStartOffset>
-        <beamLineFleckChanceCurve>
-          <points>
-            <li>(0, 0)</li>
-          </points>
-        </beamLineFleckChanceCurve>
       </li>
     </verbs>
     <weaponTags>
@@ -372,6 +353,45 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+        <defName>Kral_Heatbeam</defName>
+        <label>Incinerator Beam</label>
+        <description>its a heat ray, what do you want from me</description>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Misc/Bullets/heatrayer</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Flame</damageDef>
+            <damageAmountBase>5</damageAmountBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
+            <stoppingPower>5</stoppingPower>
+            <speed>10000</speed>
+        </projectile>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>10</damageTickRate>
+                <lifetimeTicks>50</lifetimeTicks>
+                <beamWidth>1.5</beamWidth>
+                <beamWidthDrawScale>3</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <groundFleckDef>Fleck_BeamBurn</groundFleckDef>
+                <endEffecterDef>GraserBeam_End</endEffecterDef>
+                <fleckChancePerTick>0.32</fleckChancePerTick>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+            </li>
+        </modExtensions>
   </ThingDef>
 
 </Defs> 
