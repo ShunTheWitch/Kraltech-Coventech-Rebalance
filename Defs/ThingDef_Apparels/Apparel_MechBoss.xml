@@ -28,7 +28,7 @@
       <Mass>3</Mass>
       <Flammability>0</Flammability>
       <EnergyShieldRechargeRate>1.5</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>500.00</EnergyShieldEnergyMax>
+      <EnergyShieldEnergyMax>1.00</EnergyShieldEnergyMax>
     </statBases>
     <apparel>
       <bodyPartGroups>
@@ -40,10 +40,10 @@
     </apparel>
     <comps>
       <li Class="Kraltech_Industries.CompProperties_BetterShield">
-        <startingTicksToReset>2000</startingTicksToReset>
+        <startingTicksToReset>60000</startingTicksToReset>
         <minDrawSize>8.5</minDrawSize>
         <maxDrawSize>8.8</maxDrawSize>
-        <energyLossPerDamage>0.01</energyLossPerDamage>
+        <energyLossPerDamage>1</energyLossPerDamage>
         <energyOnReset>4.0</energyOnReset>
         <blocksRangedWeapons>false</blocksRangedWeapons>
       </li>

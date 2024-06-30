@@ -51,14 +51,14 @@
       <MarketValue>10000</MarketValue>
       <WorkToMake>1700000</WorkToMake>
 	  <EnergyShieldRechargeRate>1.3</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>40.00</EnergyShieldEnergyMax>
+      <EnergyShieldEnergyMax>1.00</EnergyShieldEnergyMax>
       <StuffEffectMultiplierArmor>12.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>35.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>35.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>11</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MechBandwidth>80</MechBandwidth>  
+      <MechBandwidth>20</MechBandwidth>  
     </equippedStatOffsets>
 	<thingCategories>
       <li>ApparelArmor</li>
@@ -199,7 +199,7 @@
       </li>
     </comps>	
     <equippedStatOffsets>
-      <MechBandwidth>30</MechBandwidth>
+      <MechBandwidth>20</MechBandwidth>
       <MeleeHitChance>3.0</MeleeHitChance>
 	  <MeleeDodgeChance>3.0</MeleeDodgeChance>
 	  <PsychicSensitivity>3.0</PsychicSensitivity>	
