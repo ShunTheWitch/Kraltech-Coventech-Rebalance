@@ -4,15 +4,15 @@
   <AbilityDef>
     <defName>PsiBulletBasic</defName>
     <label>basic psychic bullet</label>
-    <description>Fire a basic psychic bullet. The user will gain a maximum number of 25 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Fire a basic psychic bullet. The user will gain a maximum number of 2 charges before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/BasicPsychicBulletUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>	
-	<charges>25</charges>
+	<charges>2</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>PsychicInsanityLanceCast</soundCast>
@@ -46,15 +46,15 @@
   <AbilityDef>
     <defName>PsiBulletBerserk</defName>
     <label>berserker psychic bullet</label>
-    <description>Fire a psychic bullet that has a chance to inflict berserk upon impact. The user will gain a maximum number of 15 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Fire a psychic bullet that has a chance to inflict berserk upon impact. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/BerserkBulletUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>	
-	<charges>15</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>PsychicInsanityLanceCast</soundCast>
@@ -80,11 +80,11 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-	  <damageAmountBase>25</damageAmountBase>
+	  <damageAmountBase>10</damageAmountBase>
 	  <armorPenetrationBase>0.50</armorPenetrationBase>
 	  <extraDamages>
          <li>
-          <amount>45</amount>
+          <amount>10</amount>
           <chance>0.5</chance>
           <def>BulletBerserk</def>
          </li>
@@ -96,15 +96,15 @@
   <AbilityDef>
     <defName>PsiBulletConfusion</defName>
     <label>confusion psychic bullet</label>
-    <description>Fire a psychic bullet that has a chance to inflict confusion upon impact. The user will gain a maximum number of 15 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Fire a psychic bullet that has a chance to inflict confusion upon impact. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/ConfusionBulletUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>	
-	<charges>15</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>PsychicInsanityLanceCast</soundCast>
@@ -130,11 +130,11 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-	  <damageAmountBase>25</damageAmountBase>
+	  <damageAmountBase>10</damageAmountBase>
 	  <armorPenetrationBase>0.50</armorPenetrationBase>
 	  <extraDamages>
          <li>
-          <amount>45</amount>
+          <amount>10</amount>
           <chance>0.5</chance>
           <def>BulletConfusion</def>
          </li>
@@ -150,11 +150,11 @@
     <iconPath>Things/Misc/UI/ImplantAbilities/DeathBulletUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>	
-	<charges>10</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>PsychicInsanityLanceCast</soundCast>
@@ -180,11 +180,11 @@
     </graphicData>
     <projectile>
       <damageDef>BulletHealthBlight</damageDef>
-	  <damageAmountBase>25</damageAmountBase>
+	  <damageAmountBase>10</damageAmountBase>
 	  <armorPenetrationBase>0.50</armorPenetrationBase>
 	  <extraDamages>
 		 <li>
-          <amount>45</amount>
+          <amount>10</amount>
           <chance>0.01</chance>
           <def>DeathBullet</def>
          </li>
@@ -196,15 +196,15 @@
   <AbilityDef>
     <defName>PsiBulletEnhanced</defName>
     <label>enhanced psychic bullet</label>
-    <description>Fire an enhanced psychic bullet. The user will gain a maximum number of 10 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Fire an enhanced psychic bullet. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/EnhancedPsiBulletUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>	
-	<charges>10</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
 	  <forcedMissRadius>1.0</forcedMissRadius>
@@ -242,15 +242,15 @@
   <AbilityDef>
     <defName>PsychicAntiOrganicBlast</defName>
     <label>psychic anti organic blast</label>
-    <description>Conjure a localized anti-organic blast in a single area. The user will gain a maximum number of 5 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Conjure a localized anti-organic blast in a single area. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/AntiOrgBlastUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
 	  <requireLineOfSight>false</requireLineOfSight>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
@@ -287,7 +287,7 @@
   <AbilityDef>
     <defName>PsychicAntiOrganicOrbitalStrike</defName>
     <label>psychic anti organic orbital strike</label>
-    <description>Conjure an AOE anti-organic orbital strike at any chosen locations.  The user will gain a maximum number of 2 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Conjure an AOE anti-organic orbital strike at any chosen locations.  The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/AntiOrgOrbitalUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>	
 	<charges>1</charges>
@@ -295,7 +295,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
 	  <requireLineOfSight>false</requireLineOfSight>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
@@ -398,14 +398,14 @@
 	<aiCanUse>true</aiCanUse>
     <displayOrder>100</displayOrder>
 	<statBases>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>1.00</AccuracyShort>
-      <AccuracyMedium>1.00</AccuracyMedium>
-      <AccuracyLong>1.00</AccuracyLong>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>30.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>15</warmupTime>
 	  <aimingChargeMote>Mote_ChargeCannon_Charge</aimingChargeMote>
@@ -436,7 +436,7 @@
 	<thingClass>Projectile_HellsphereCannon</thingClass>
     <projectile>
       <damageDef>ChargeBlastEX</damageDef>
-	  <explosionRadius>7.9</explosionRadius>
+	  <explosionRadius>2.9</explosionRadius>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <speed>120</speed>
     </projectile>
@@ -445,9 +445,9 @@
   <AbilityDef>
     <defName>RiftWalk</defName>
     <label>rift walk</label>
-    <description>Bend the fabrics of time and space to teleport yourself, and your allies, to any X,Y,Z coordinates. The user will gain a maximum number of 5 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Bend the fabrics of time and space to teleport yourself, and your allies, to any X,Y,Z coordinates. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <iconPath>Things/Misc/UI/ImplantAbilities/RiftWalkUI</iconPath>
     <writeCombatLog>True</writeCombatLog>
     <showPsycastEffects>False</showPsycastEffects>
@@ -484,10 +484,10 @@
   <AbilityDef>
     <defName>LongRangeRiftWalk</defName>
     <label>long range rift walk</label>
-    <description>Teleport the caster, along with their allies, to any distant locations throughout the planet where a willing ally is used as a beacon for mass transport. The user will gain a maximum number of 4 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Teleport the caster, along with their allies, to any distant locations throughout the planet where a willing ally is used as a beacon for mass transport. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/RiftWalkUI</iconPath>
 	<cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>4</charges>
+	<charges>1</charges>
     <targetWorldCell>True</targetWorldCell>
     <showGizmoOnWorldView>True</showGizmoOnWorldView>
     <verbProperties>
@@ -509,14 +509,14 @@
   <AbilityDef>
     <defName>SelfHeal</defName>
     <label>self heal</label>
-    <description>Heal yourself from any wounds by hastening the body's blood clotting process and boost its natural healing ability. The user will gain a maximum number of 10 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Heal yourself from any wounds by hastening the body's blood clotting process and boost its natural healing ability. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <iconPath>Things/Misc/UI/ImplantAbilities/SelfHealUI</iconPath>
     <writeCombatLog>True</writeCombatLog>
     <showPsycastEffects>False</showPsycastEffects>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>10</charges>
+    <charges>1</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -548,10 +548,10 @@
   <AbilityDef>
     <defName>GravityJump</defName>
     <label>gravity jump</label>
-    <description>Jump to a distant location using gravitational propulsion. The user will gain a maximum number of 10 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Jump to a distant location using gravitational propulsion. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/ImplantAbilities/GravityJumpUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>10</charges>
+	<charges>1</charges>
     <verbProperties>
       <verbClass>Verb_CastAbilityJump</verbClass>
       <label>gravity jump</label>
@@ -576,14 +576,14 @@
   <AbilityDef>
     <defName>OverDrive</defName>
     <label>overdrive</label>
-    <description>Activate the archotech heart's main function and enter in an overdriven state. The user will gain a maximum number of 3 charges before the ability enters a 24 hr. cooldown.</description>
+    <description>Activate the archotech heart's main function and enter in an overdriven state. The user will gain a maximum number of 1 charge before the ability enters a 24 hr. cooldown.</description>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <iconPath>Things/Misc/UI/ImplantAbilities/OverdriveUI</iconPath>
     <writeCombatLog>True</writeCombatLog>
     <showPsycastEffects>False</showPsycastEffects>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>3</charges>
+    <charges>1</charges>
 	<statBases>
     </statBases>
     <verbProperties>

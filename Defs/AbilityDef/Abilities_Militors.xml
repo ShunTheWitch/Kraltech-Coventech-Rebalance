@@ -50,7 +50,7 @@
     <iconPath>Things/Misc/UI/MilitorSkills/MassBeckonUI</iconPath>
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Provoked</warmupMoteSocialSymbol>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>7</charges>
+	<charges>3</charges>
 	<statBases>
       <Ability_EffectRadius>5.9</Ability_EffectRadius>
 	  <Ability_Duration>20</Ability_Duration>
@@ -89,7 +89,7 @@
     <showPsycastEffects>False</showPsycastEffects>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>5</charges>
+    <charges>1</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -122,7 +122,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Reinforce_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/ShieldGeneratorUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -166,7 +166,7 @@
     <iconPath>Things/Misc/UI/MilitorSkills/FirstAidUI</iconPath>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>10</charges>
+    <charges>2</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -202,7 +202,7 @@
     <iconPath>Things/Misc/UI/MilitorSkills/ImmunogenUI</iconPath>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>10</charges>
+    <charges>2</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -238,7 +238,7 @@
     <iconPath>Things/Misc/UI/MilitorSkills/CureAllUI</iconPath>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>10</charges>
+    <charges>2</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -273,7 +273,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/CureAllz_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/CureAllSerumUI</iconPath>
     <cooldownTicksRange>300000</cooldownTicksRange>	
-	<charges>2</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -299,7 +299,7 @@
     <iconPath>Things/Misc/UI/MilitorSkills/MorphineShotUI</iconPath>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>10</charges>
+    <charges>2</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -339,7 +339,7 @@
     <showPsycastEffects>False</showPsycastEffects>
 	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <charges>5</charges>
+    <charges>1</charges>
 	<statBases>
     </statBases>
     <verbProperties>
@@ -372,7 +372,7 @@
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
 	<iconPath>Things/Misc/UI/MilitorSkills/CamouflageUI</iconPath>
-	<charges>5</charges>
+	<charges>1</charges>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <verbProperties>
 	    <verbClass>Verb_CastAbilityTouch</verbClass>
@@ -406,7 +406,7 @@
     <label>EMP launcher</label>
     <description>Shoot an explosive EMP warhead that can disable groups of mechanoids. The user will gain a maximum number of 10 charges before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/MilitorSkills/EMPLauncherUI</iconPath>
-    <charges>10</charges>
+    <charges>2</charges>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
@@ -450,7 +450,7 @@
     <label>nanite assault</label>
     <description>Invade the body of multiple targets with harmful nanites that lowers some of their body's capacities and forces them to go berserk. The user will gain a maximum number of 6 charges before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/MilitorSkills/NaniteAssaultUI</iconPath>
-    <charges>6</charges>
+    <charges>1</charges>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
@@ -489,7 +489,7 @@
     <label>magnesium grenade</label>
     <description>Throw a packed liquid magnesium grenade that slows the target and make them flamable. The user will gain a maximum number of 5 charges before the ability enters a 24 hr. cooldown.</description>
     <iconPath>Things/Misc/UI/MilitorSkills/StickyGrenade</iconPath>
-    <charges>5</charges>
+    <charges>2</charges>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
@@ -534,7 +534,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/FoodDispenserUI</iconPath>
     <cooldownTicksRange>300000</cooldownTicksRange>	
-	<charges>2</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -575,7 +575,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/AmmoDispenserUI</iconPath>
     <cooldownTicksRange>300000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -616,7 +616,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/MiniGeneratorUI</iconPath>
     <cooldownTicksRange>300000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -656,8 +656,8 @@
     <description>Deploy military-grade landmines permanently. The user will have a maximum of 20 charges before the ability enters a 360 hr. cooldown.</description>
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/LandMineUI</iconPath>
-    <cooldownTicksRange>900000</cooldownTicksRange>	
-	<charges>20</charges>
+    <cooldownTicksRange>600000</cooldownTicksRange>	
+	<charges>5</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -698,7 +698,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/EnergyTurretUI</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>	
-	<charges>2</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -739,7 +739,7 @@
 	<warmupMoteSocialSymbol>Things/Misc/UI/MilitorSkills/Emotes/Specialist_Emote</warmupMoteSocialSymbol>
     <iconPath>Things/Misc/UI/MilitorSkills/MGTurretUI</iconPath>
     <cooldownTicksRange>300000</cooldownTicksRange>	
-	<charges>5</charges>
+	<charges>1</charges>
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>

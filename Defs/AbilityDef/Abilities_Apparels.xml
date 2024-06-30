@@ -8,7 +8,7 @@
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
 	<iconPath>Things/Misc/UI/ApparelAbililties/ShieldUI</iconPath>
-	<charges>3</charges>
+	<charges>1</charges>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <verbProperties>
 	    <verbClass>Verb_CastAbilityTouch</verbClass>
@@ -80,7 +80,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>30.9</range>
+      <range>15.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
 	  <forcedMissRadius>1.9</forcedMissRadius>
@@ -122,7 +122,7 @@
     <displayOrder>100</displayOrder>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>30.9</range>
+      <range>20.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
 	  <forcedMissRadius>1.9</forcedMissRadius>
@@ -191,7 +191,7 @@
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
 	<iconPath>Things/Misc/UI/ApparelAbililties/InvisibilityUI</iconPath>
-	<charges>3</charges>
+	<charges>1</charges>
     <cooldownTicksRange>20000</cooldownTicksRange>
     <verbProperties>
 	    <verbClass>Verb_CastAbilityTouch</verbClass>
