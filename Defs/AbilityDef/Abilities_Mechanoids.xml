@@ -11,7 +11,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45</range>
+      <range>20</range>
 	  <minRange>5.9</minRange>
       <warmupTime>3.5</warmupTime>
       <soundCast>Shot_IncendiaryLauncher</soundCast>
@@ -54,7 +54,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45</range>
+      <range>20</range>
 	  <minRange>5.9</minRange>
       <warmupTime>3.5</warmupTime>
       <soundCast>Shot_IncendiaryLauncher</soundCast>
@@ -100,7 +100,7 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>15.9</range>
 	  <forcedMissRadius>1.0</forcedMissRadius>
-	  <minRange>3.9</minRange>
+	  <minRange>0.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_ToxCanister</soundCast>
 	  <targetParams>
@@ -146,7 +146,7 @@
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>30.9</range>
+      <range>15.9</range>
       <warmupTime>0.5</warmupTime>
 	  <targetParams>
         <canTargetLocations>true</canTargetLocations>
@@ -303,14 +303,14 @@
   <AbilityDef>
     <defName>AntiOrganicGrenade</defName>
     <label>anti-organic grenade</label>
-    <description>Launch an explosive payload full of anti-organic nanites, that brutaly harms organics inside a 15.9 blast radius.</description>
+    <description>Launch an explosive payload full of anti-organic nanites, that brutaly harms organics inside a 10.9 blast radius.</description>
    <iconPath>Things/Misc/UI/NaniteGrenadeUI</iconPath>
     <cooldownTicksRange>2500</cooldownTicksRange>
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>50.9</range>
+      <range>12.9</range>
       <warmupTime>0.5</warmupTime>
 	  <forcedMissRadius>1.0</forcedMissRadius>
 	  <noiseRadius>4</noiseRadius>
@@ -337,7 +337,7 @@
     </graphicData>
     <projectile>
       <damageDef>AntiHumanNanites</damageDef>
-      <explosionRadius>15.9</explosionRadius >
+      <explosionRadius>10.9</explosionRadius >
 	  <explosionDelay>300</explosionDelay>
       <speed>80</speed>
     </projectile>
@@ -353,7 +353,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>15.9</range>
 	  <forcedMissRadius>1.0</forcedMissRadius>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
@@ -396,7 +396,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
 	  <requireLineOfSight>false</requireLineOfSight>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
@@ -440,7 +440,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>15.9</range>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_EmpressBlade</soundCast>
     </verbProperties>
@@ -460,8 +460,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-	  <armorPenetrationBase>5.0</armorPenetrationBase>
-	  <damageAmountBase>150</damageAmountBase>
+	  <armorPenetrationBase>0.5</armorPenetrationBase>
+	  <damageAmountBase>20</damageAmountBase>
       <speed>150</speed>
     </projectile>
   </ThingDef>
@@ -477,7 +477,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>25.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
 	  <isMortar>true</isMortar>
@@ -508,7 +508,7 @@
       <damageDef>Flame</damageDef>
 	  <flyOverhead>true</flyOverhead>
 	  <explosionRadius>5.9</explosionRadius>
-	  <armorPenetrationBase>5</armorPenetrationBase>
+	  <armorPenetrationBase>0</armorPenetrationBase>
 	  <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.27</preExplosionSpawnChance>
       <ai_IsIncendiary>true</ai_IsIncendiary>
@@ -526,7 +526,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
 	  <requireLineOfSight>false</requireLineOfSight>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
@@ -570,9 +570,9 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>30.9</range>
 	  <requireLineOfSight>false</requireLineOfSight>
-	  <minRange>3.9</minRange>
+	  <minRange>5.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_Doom</soundCast>
 	  <targetParams>
@@ -639,7 +639,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_LaserBlaster</soundCast>
     </verbProperties>
@@ -664,8 +664,8 @@
 	<thingClass>Kraltech_Industries.LaserBeamzProj</thingClass>
     <projectile>
       <damageDef>BulletHealthBlight</damageDef>
-	  <armorPenetrationBase>5.0</armorPenetrationBase>
-	  <damageAmountBase>70</damageAmountBase>
+	  <armorPenetrationBase>0</armorPenetrationBase>
+	  <damageAmountBase>50</damageAmountBase>
       <speed>1000</speed>
 	  <extraDamages>
          <li>
@@ -690,7 +690,7 @@
       <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
       <warmupTime>0.5</warmupTime>
       <minRange>5.9</minRange>
-      <range>15.9</range>
+      <range>10.9</range>
       <requireLineOfSight>true</requireLineOfSight>
       <soundCast>Longjump_Jump</soundCast>
       <soundLanding>Longjump_Land</soundLanding>
@@ -713,14 +713,14 @@
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
 	<statBases>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>1.00</AccuracyShort>
-      <AccuracyMedium>1.00</AccuracyMedium>
-      <AccuracyLong>1.00</AccuracyLong>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>35.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>6</warmupTime>
 	  <aimingChargeMote>Mote_ValyrianBlast_Charge</aimingChargeMote>
@@ -822,7 +822,7 @@
       <aiCanUse>false</aiCanUse>
       <verbProperties>
         <verbClass>Verb_CastAbility</verbClass>
-        <range>55.9</range>
+        <range>45.9</range>
 	    <requireLineOfSight>false</requireLineOfSight>
 	    <minRange>3.9</minRange>
         <warmupTime>0.5</warmupTime>
@@ -921,14 +921,14 @@
     <displayOrder>100</displayOrder>
     <aiCanUse>true</aiCanUse>
 	<statBases>
-      <AccuracyTouch>1.00</AccuracyTouch>
-      <AccuracyShort>1.00</AccuracyShort>
-      <AccuracyMedium>1.00</AccuracyMedium>
-      <AccuracyLong>1.00</AccuracyLong>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>45.9</range>
+      <range>35.9</range>
 	  <minRange>3.9</minRange>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_IronSandSpear</soundCast>
@@ -1004,7 +1004,7 @@
     <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <range>55.9</range>
+      <range>35.9</range>
       <warmupTime>0.5</warmupTime>
       <soundCast>Shot_FlashArc</soundCast>
     </verbProperties>
@@ -1158,7 +1158,7 @@
     </statBases>
     <verbProperties>
 	  <verbClass>Verb_CastAbilityTouch</verbClass>
-	  <range>30.9</range>
+	  <range>15.9</range>
       <warmupTime>0.5</warmupTime>
 	  <soundCast>PsychicInsanityLanceCast</soundCast>
 	  <targetParams>
