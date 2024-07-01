@@ -410,7 +410,8 @@
     <gameCondition>INCExtremeColdSnap</gameCondition>
     <letterLabel>Extreme cold snap</letterLabel>
     <letterDef>NegativeEvent</letterDef>
-    <baseChance>1.5</baseChance>
+    <baseChance>0.5</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>75</minRefireDays>
     <durationDays>2.5~10.5</durationDays>
   </IncidentDef>
@@ -438,7 +439,8 @@
     <gameCondition>INCExtremeHeatWave</gameCondition>
     <letterLabel>Extreme heat wave</letterLabel>
     <letterDef>NegativeEvent</letterDef>
-    <baseChance>1.5</baseChance>
+    <baseChance>0.5</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>75</minRefireDays>
     <durationDays>2.5~10.5</durationDays>
   </IncidentDef>
@@ -466,7 +468,8 @@
     <gameCondition>INCToxicRain</gameCondition>
     <letterLabel>Toxic Rain</letterLabel>
     <letterDef>NegativeEvent</letterDef>
-    <baseChance>1.5</baseChance>
+    <baseChance>0.5</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>85</minRefireDays>
     <durationDays>2.5~7.5</durationDays>
   </IncidentDef>
@@ -494,7 +497,8 @@
     <gameCondition>INCAntiOrganicFallout</gameCondition>
     <letterLabel>Anti-Organic Fallout</letterLabel>
     <letterDef>NegativeEvent</letterDef>
-    <baseChance>1.5</baseChance>
+    <baseChance>0.5</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>85</minRefireDays>
     <durationDays>2.5~7.5</durationDays>
   </IncidentDef>
@@ -522,7 +526,8 @@
     <gameCondition>INCCorseFog</gameCondition>
     <letterLabel>Corpse Fog</letterLabel>
     <letterDef>NegativeEvent</letterDef>
-    <baseChance>1.5</baseChance>
+    <baseChance>0.5</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>85</minRefireDays>
     <durationDays>2.5~7.5</durationDays>
   </IncidentDef>
@@ -551,6 +556,7 @@
     <letterLabel>Crimson Rain</letterLabel>
     <letterDef>NegativeEvent</letterDef>
     <baseChance>0.1</baseChance>
+    <minThreatPoints>9000</minThreatPoints>
     <minRefireDays>105</minRefireDays>
     <durationDays>2.5~7.5</durationDays>
   </IncidentDef>
